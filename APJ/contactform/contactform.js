@@ -98,7 +98,7 @@ jQuery(document).ready(function($) {
     $.ajax({
       type: "POST",
       url: "http://joinapj.com/api/mail/",
-      data: str,
+      data: {'name':'bala'},
       success: function(msg) {
         // alert(msg);
         if (msg == 'sent') {
