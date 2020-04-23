@@ -94,11 +94,11 @@ jQuery(document).ready(function($) {
     if( ! action ) {
       action = 'contactform/contactform.php';
     }
-	console.log(str);
+	
     $.ajax({
       type: "POST",
       url: "http://joinapj.com/api/mail/",
-      data: {'name':'bala'},
+      data: str,
       success: function(msg) {
         // alert(msg);
         if (msg == 'sent') {
