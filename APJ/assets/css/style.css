@@ -1350,7 +1350,7 @@ h2.error {
 
 .priceBox span {
   display: block;
-  padding: 10px 0;
+  padding: 10px;
 }
 
 .priceBox .emphasis {
@@ -1369,8 +1369,9 @@ h2.error {
 
 .priceBox .light {
   margin: 0;
-  padding: 15px 0;
-  color: #333;
+  padding: 7px 0;
+  color: white;
+  background: #4473c5;
 }
 
 .priceBox .btn {
