@@ -97,7 +97,7 @@ jQuery(document).ready(function($) {
 	
     $.ajax({
       type: "POST",
-      url: "http://joinapj.com/api/mail/",
+      url: "http://joinapj.com/api/stu-reg/",
       data: str,
       success: function(msg) {
         // alert(msg);
