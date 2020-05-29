@@ -1,6 +1,7 @@
 jQuery(document).ready(function($) {
   "use strict";
-
+	$('#terms').show();
+	$('#reg_form').hide();
   //Contact
   $('form.contactForm').submit(function() {
     var f = $(this).find('.form-group'),
@@ -104,7 +105,7 @@ jQuery(document).ready(function($) {
         if (msg == 'sent') {
           $("#sendmessage").addClass("show");
           $("#errormessage").removeClass("show");
-          $('.contactForm').find("input, textarea").val("");
+          $('.contactForm').find("input, textarea", "select").val("");
         } else {
           $("#sendmessage").removeClass("show");
           $("#errormessage").addClass("show");
@@ -117,3 +118,9 @@ jQuery(document).ready(function($) {
   });
 
 });
+
+function showRegisterForm(){
+	alert("hi");
+	$('#terms').hide();
+	$('#reg_form').show();
+}

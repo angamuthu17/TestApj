@@ -103,74 +103,82 @@
   <section id="maincontent">
 	<marquee><p style="color:#4473c5; font-weight: 600;">Welcome to A Purposeful Journey. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Thank you for all our continues contributors and supports. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We pray for everyone health during Covid-19 pandemic. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stay safe and healthy!</p></marquee>
     <div class="container">
-      <div class="row">
-        <div class="span4">
-          <aside>
-            <div class="widget">
-              <h4>Get in touch with us</h4>
-              <ul>
-                <!-- <li><label><strong>Phone : </strong></label>
-                  <p>
-                    +900 888 707 123
-                  </p>
-                </li> -->
-                <li><label><strong>Email : </strong></label>
-                  <p>
-                    joinapj@gmail.com
-                  </p>
-                </li>
-                <!-- <li><label><strong>Adress : </strong></label>
-                  <p>
-                    Pasar kambing 58 Suite X.110 Peterongan Semarang, Indonesia
-                  </p>
-                </li> -->
-              </ul>
-            </div>
-            <div class="widget">
-              <h4>Social network</h4>
-              <ul class="social-links">
-                <!--<li><a href="#" title="Twitter"><i class="icon-rounded icon-32 icon-twitter"></i></a></li>-->
-                <li><a href="https://www.facebook.com/apurposefuljourney/" title="Facebook"><i class="icon-rounded icon-32 icon-facebook"></i></a></li>
-                <!--<li><a href="#" title="Google plus"><i class="icon-rounded icon-32 icon-google-plus"></i></a></li>-->
-              </ul>
-            </div>
-          </aside>
-        </div>
-        <div class="span8">
+        <div class="span8" style="width: 100%;">
           <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe> -->
 
           <!-- <div class="spacer30"></div> -->
-          <h4>Please reach us with your questions/interests/feedback. Our team will try to get back to you within 72 hours.</h4>
-          <div id="sendmessage">You have submitted successfuly. We will reach you in email. Thank you!</div>
-          <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm">
-            <div class="row">
-              <div class="span4 form-group">
-                <input type="text" name="stu_name" class="form-control" id="stu_name" placeholder="Student Name" data-rule="minlen:4"
-                  data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
-              </div>
-			  <div class="span4 form-group">
-                <input type="text" name="stu_edu" class="form-control" id="stu_edu" placeholder="Education details" data-rule="minlen:2"
-                  data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
-              </div>
-			  <div class="span8 form-group">
-                <input type="text" class="form-control" name="stu_age" id="stu_age" placeholder="Age" data-rule="minlen:1"
-                  data-msg="Please enter valid age"/>
-                <div class="validation"></div>
-              </div>
+			<div name="terms" id="terms">
+				<div class="row">
+					<div class="span6">
+						<p class="terms-font" style="font-size:14px;">Thank you for your interest.</p> 
+					</div>
+					<div class="span6">
+						<button class="btn btn-color btn-rounded"style="margin-left: 85%"; onclick="showRegisterForm();">Register</button>
+					</div>
+				</div>
+				<p style="font-size:14px;">There will be FREE online classes for every Saturday or Sunday based on Volunteer's availability. Students should be flexible on date and time. Python class batch starting from this Saturday and one batch may go upto 12 weeks.
+				English learning session is a practice method/way of learning. It will be conducted regularly either Saturday or Sunday. Students should register and they will get class details via email before Friday.<br>
+
+				<b>Note:</b> Currently, classes will be conducted by explaining details in Tamil during interaction.<br>
+
+				<b>Disclaimer :</b> It is volunteers-run program. No specific academic or Job oriented training. It is purely as knowledge sharing session for students. Schedules are subject to change or cancel.<br>
+
+				<b>More details;</b> <br> 
+
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Are you a student or do you know any students who completed grade 10th or above? Please ask them to register for fee-free online weekend coaching classes if really interested.<br>
+
+				Coaching class aims to teach basic English via watching educational videos and reading books, Tips and tricks for presentations and interview preparations and tries to clarify higher education / career related questions. 
+				Also, basic maths, computers and programming languages will be conducted.<br>
+
+				Please note that these classes are currently designed for Tamilnadu region students.<br>
+				
+
+				<b>Eligibility:</b><br>
+					10th std Students or above<br>
+					100% Interest & dedication <br>
+					Availability on weekends - mostly Saturday or Sunday evening <br>
+
+					<b>Requirements:</b><br>
+					Laptop or smart phone with zoom/Google meet application installed <br>
+					Internet connectivity <br>
+					Ear phone if possible 	<br>
+
+					Next class details will be sent via email if selected<br>
+					<button class="btn btn-color btn-rounded">Register</button><br>
+				</p>
+				
+			</div>
+			<div id="reg_form" name="reg_form">
+				<div id="sendmessage">You have submitted successfuly. We will reach you in email. Thank you!</div>
+				<div id="errormessage"></div>
+				<form action="" method="post" role="form" class="contactForm">
+				<div class="row">
+				<div class="span4 form-group">
+					<input type="text" name="stu_name" class="form-control" id="stu_name" placeholder="Student Name" data-rule="minlen:4"
+					data-msg="Please enter at least 4 chars" />
+					<div class="validation"></div>
+				</div>
+				<div class="span4 form-group">
+					<input type="text" name="stu_edu" class="form-control" id="stu_edu" placeholder="Education details" data-rule="minlen:2"
+					data-msg="Please enter at least 4 chars" />
+					<div class="validation"></div>
+				</div>
+				<div class="span8 form-group">
+					<input type="text" class="form-control" name="stu_age" id="stu_age" placeholder="Age" data-rule="minlen:1"
+					data-msg="Please enter valid age"/>
+					<div class="validation"></div>
+				</div>
 			  
-              <div class="span4 form-group">
-                <input type="mobile" class="form-control" name="mobile" id="mobile" placeholder="Mobile number  (whatsapp preferred)" 
-                  data-msg="Please enter a valid Mobile" />
-                <div class="validation"></div>
-              </div>
-              <div class="span8 form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email"
-                  data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
+				<div class="span8 form-group">
+					<input type="text" class="form-control" name="mobile" id="mobile" placeholder="Mobile number  (whatsapp preferred)" 
+					data-msg="Please enter a valid Mobile" />
+					<div class="validation"></div>
+				</div>
+				<div class="span8 form-group">
+					<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email"
+					data-msg="Please enter a valid email" />
+					<div class="validation"></div>
+				</div>
 				<div class="span8 form-group">
 					<label for "availablity">Availability on Saturday or Sunday?</label>
 				</div>
@@ -181,23 +189,20 @@
 						<option value="No">No</option>
 					</select>
 				</div>
-              <div class="span8 form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject interested to learn? (Ex: English, Python,....)" 
-                  data-msg="Please enter at least 8 chars of subject" />
-                <div class="validation"></div>
-              </div>
-            </div>
-			<div class="span8 form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"
-                  placeholder="Message"></textarea>
-                <div class="validation"></div>
-                <div class="text-center">
-                  <button class="btn btn-color btn-rounded" type="submit">Submit</button>
-                </div>
-              </div>
+				<div class="span8 form-group">
+					<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject interested to learn? (Ex: English, Python,....)" 
+					data-msg="Please enter at least 8 chars of subject" />
+					<div class="validation"></div>
+				</div>
+				</div>
+				<div class="span8 form-group">
+					<div class="text-center">
+						<button class="btn btn-color btn-rounded" type="submit">Submit</button>
+					</div>
+				</div>
             </div>
           </form>
-
+		<br>
         </div>
       </div>
     </div>
