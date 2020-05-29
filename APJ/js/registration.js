@@ -120,7 +120,6 @@ jQuery(document).ready(function($) {
 });
 
 function showRegisterForm(){
-	alert("hi");
 	$('#terms').hide();
 	$('#reg_form').show();
 }
