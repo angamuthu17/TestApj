@@ -23,19 +23,19 @@
         </div>
 
         <div class="row mt-4 mb-4">
-            <div class="col-md border-rt-secondary">
-                <div>
+            <div class="col-md border-rt-secondary border-bottom">
+                <div class="mt-4 font-size-13">
                     <span>
                         <label for="emailText">E-mail us to <label>
                         <a href="mailto:joinapj@gmail.com" id="emailText">joinapj@gmail.com</a> 
                     </span>
-                    <span class="float-right">
-                        <a href="#"><i class="fa fa-facebook fa-lg mr-3 text-dark" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter fa-lg mr-3 text-dark" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-instagram fa-lg text-dark" aria-hidden="true"></i></a>
+                    <span class="float-right social-media-links">
+                        <a href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a><span class="mr-3"></span>
+                        <a href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a><span class="mr-3"></span>
+                        <a href="#"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
                     </span>
                 </div>
-                <img src="assets/images/pic8.jpeg" class="img-fluid mt-4" alt="Responsive image"> 
+                <img src="assets/images/pic8.jpeg" class="img-fluid mt-4 sm-no-display" alt="Responsive image"> 
             </div>
             <div class="col-md mt-4 mb-4">
                 <form class="needs-validation" novalidate>
@@ -80,6 +80,21 @@
 
                     <div class="form-row">
                         <div class="col-md mb-3">
+                            <label for="subject">Subject <span class="text-danger small">*</span></label>
+                            <select class="form-control" id="subject" required>
+                                <option value="">-- Select --</option>
+                                <option value="onlineClass">Feedback / suggestion regarding free online classes</option>
+                                <option value="joining">Feedback / suggestion regarding joining a initiative</option>
+                                <option value="contribution">Feedback / suggestion regarding contributing</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please select the subject.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-md mb-3">
                             <label for="userMessage">Your message <span class="text-danger small">*</span></label>
                             <textarea class="form-control" id="userMessage" rows="5" required></textarea>
                             <div class="invalid-feedback">
@@ -90,7 +105,7 @@
 
                     <div class="form-row">
                         <div class="col-md mb-3">
-                            <button id="submitButton" type="submit" class="btn btn-success w-100" onClick="submitFeedback();">
+                            <button id="submitButton" type="submit" class="btn btn-outline-info w-100" onClick="submitFeedback();">
                                 <span id="btn-txt-submit">Submit</span>
                                 <span id="btn-txt-loadSubmit">
                                     <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
@@ -99,7 +114,7 @@
                             </button>
                         </div>
                         <div class="col-md mb-3">
-                            <button type="reset" class="btn btn-secondary w-100" onClick="resetForm();">Reset</button>
+                            <button type="reset" class="btn btn-outline-secondary w-100" onClick="resetForm();">Reset</button>
                         </div>
                     </div>
                     <span class="text-danger small">* Required field</span>

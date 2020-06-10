@@ -8,7 +8,7 @@
             <a href="#"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
         </div>
         <div class="col-sm text-center mb-3">
-            <a class="text-white font-weight-bold border-right p-2" href="fefa">#FreeEducation4All  </a>
+            <a class="text-white font-weight-bold border-right p-2" href="fefa">#FreeEducation  </a>
             <a class="text-white font-weight-bold border-right p-2" href="joinUs">  JoinUs  </a>
             <a class="text-white font-weight-bold p-2" href="contact">  Contact Us</a>
         </div>

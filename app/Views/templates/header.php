@@ -53,7 +53,7 @@
   </head>
   <body onload="setActiveElementInNav();">
     <header>
-  <nav class="navbar navbar-expand-xl navbar-light fixed-top" style="background-color: white; border-bottom: 2px solid #59b2de;">
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top" style="background-color: white; border-bottom: 2px solid #4473c5;">
     <a class="navbar-brand" href="home">
         <img src="assets/brand/logo.png" height="50px;" width="50px;"/>
         <span class="brand-text">A Purposeful Journey</span>
@@ -66,8 +66,8 @@
         <li id="home" class="nav-item active">
           <a class="nav-link" href="home">Home</a>
         </li>
-        <li id="aboutUs" class="nav-item">
-          <a class="nav-link" href="aboutUs">About Us</a>
+        <li id="journey" class="nav-item">
+          <a class="nav-link" href="journey">Our Journey</a>
         </li>
         <li id="initiatives" class="nav-item">
           <a class="nav-link" href="initiatives">Our Initiatives</a>
@@ -82,7 +82,7 @@
           <a class="nav-link" href="faq">FAQ</a>
         </li>
         <li id="fefa" class="nav-item nav-divider">
-          <a class="nav-link nav-highlight font-weight-bold font-italic" href="fefa">#FreeEducation4All</a>
+          <a class="nav-link nav-highlight font-weight-bold font-italic" href="fefa">#FreeEducation</a>
         </li>
       </ul>
     </div>

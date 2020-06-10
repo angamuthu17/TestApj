@@ -2,15 +2,15 @@
     <div class="container mt-5">
         <div class="jumbotron jumbotron-fluid text-border-big">
             <div class="container">
-                <h3 class="font-weight-bold font-italic">#FreeEducation4All</h3>
-                <p class="lead">With aim to provide free education to everyone, we have initiated this idea!</p>
+                <h3 class="font-weight-bold font-italic">#FreeEducation</h3>
+                <p class="lead">With aim to provide free education to students, we have initiated this idea!</p>
             </div>
         </div>
 
 
         <div class="card mb-4">
             <div class="card-header">
-                <h5 class="card-title">Program details <a href="fefa_register" class="btn btn-outline-primary btn-sm float-right">Register Now</a></h5>
+                <h5 class="card-title">Program details <a href="fefa_register" class="btn btn-light btn-sm float-right">Register Now</a></h5>
             </div>
             <div class="card-body">
                 <p class="small" style="text-align: justify;"> Disclaimer : It is volunteers-run free program. No specific academic or Job oriented training. It is purely a knowledge sharing session for students. Schedules are subject to change or cancel. </p>
@@ -41,7 +41,7 @@ Please note that these classes are currently designed for Tamilnadu region stude
                 </ul>
 
                 <p class="font-weight-bold"> NOTE: Once you are enrolled, the session details will be sent via e-mail after selection. </p>
-                <a href="fefa_register" class="btn btn-outline-primary btn-sm">Register Now</a>
+                <a href="fefa_register" class="btn btn-outline-info btn-sm">Register Now</a>
             </div>
         </div>
 

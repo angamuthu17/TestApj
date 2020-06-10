@@ -10,15 +10,21 @@
   <div class="row">
     <div class="col-md">
       <ul class="list-unstyled">
-          <li class="mt-2" style="text-align: justify;"><i class="fa fa-heart fa-lg mr-3 text-dark" aria-hidden="true"></i> 20+ Students have got financial support so far to continue their schoolings.</li>
-          <li class="mt-4" style="text-align: justify;"><i class="fa fa-heart fa-lg mr-3 text-dark" aria-hidden="true"></i> Basic English and motivational classes at Government school in Karnataka and Tamil Nadu</li>
-          <li class="mt-4" style="text-align: justify;"><i class="fa fa-heart fa-lg mr-3 text-dark" aria-hidden="true"></i> Book and basic school kit donations for government schools in Tamil Nadu and Karnataka</li>
-          <li class="mt-4" style="text-align: justify;"><i class="fa fa-heart fa-lg mr-3 text-dark" aria-hidden="true"></i> Continuously contributing for evening milk at Sellur homeless poor shelter (old age home run by Mother Teresa Educational Trust), Madurai in Tamil Nadu for more than 4 years.</li>
-          <li class="mt-4" style="text-align: justify;"><i class="fa fa-heart fa-lg mr-3 text-dark" aria-hidden="true"></i> Lunch and snacks during festival seasons at old age homes in Madurai, Tamil Nadu </li>
-          <li class="mt-4" style="text-align: justify;"><i class="fa fa-heart fa-lg mr-3 text-dark" aria-hidden="true"></i> Medical relief donation for children during lung transplantation and critical illness treatment in Karnataka</li>
-          <li class="mt-4" style="text-align: justify;"><i class="fa fa-heart fa-lg mr-3 text-dark" aria-hidden="true"></i> Medical relief donation for elder person during his heart surgery in Tamil Nadu</li>
-          <li class="mt-4" style="text-align: justify;"><i class="fa fa-heart fa-lg mr-3 text-dark" aria-hidden="true"></i> Relief materials and aids to people who suffered during Chennai and Kerala flood</li>
-          <li class="mt-4" style="text-align: justify;"><i class="fa fa-heart fa-lg mr-3 text-dark" aria-hidden="true"></i> Supports environmental activities like seed collections for green initiative and Delta relief with saplings donations.</li>
+          <li class="mt-2" style="text-align: justify;">
+            <i class="fas fa-chalkboard-teacher fa-lg mr-3 text-dark w--25" aria-hidden="true"></i> <span class="font-weight-bold">Techies 2 Teach</span>: This program gives platform to our volunteers to visit government schools and educate young minds on their available time including Saturdays. It motivates students and bring them back to school with new ideas plus fun.
+          </li>
+          <li class="mt-4" style="text-align: justify;">
+            <i class="fas fa-plane-departure fa-lg mr-3 text-dark w--25" aria-hidden="true"></i> <span class="font-weight-bold">Trip 2 Educate</span>: This program creates great opportunities for students to explore new places with group of teachers and volunteers. It provides different learning experience for students and for our volunteers for sure.
+          </li>
+          <li class="mt-4" style="text-align: justify;">
+            <i class="far fa-handshake fa-lg mr-3 text-dark w--25" aria-hidden="true"></i> <span class="font-weight-bold">Milk 2 Home</span>: This initiative to provide morning and evening milk to old age home and children care center from our regular fund. This will not only bring energy to needy people but also smile on their face.
+          </li>
+          <li class="mt-4" style="text-align: justify;">
+            <i class="fa fa-burn fa-lg mr-3 text-dark w--25" aria-hidden="true"></i> <span class="font-weight-bold">Hands 2 Help</span>: This is the initiate which covers all other social responsibilities including help during natural calamities, medical assistance program, environmental activities and uplifting life etc.
+          </li>
+          <li class="mt-4" style="text-align: justify;">
+            <i class="fas fa-hand-holding-usd fa-lg mr-3 text-dark w--25" aria-hidden="true"></i> <span class="font-weight-bold">Save 2 Help</span>: It is the backbone for our other programs/initiatives since it raises fund for us to run everything we plan for positive changes in our society. We save every fund contributed by our members and use them correctly to reach right set of people or cause. <span class="font-weight-bold">Small Savings! Big Help!</span>
+          </li>
       </ul>
     </div>
   </div>

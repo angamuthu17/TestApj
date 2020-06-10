@@ -3,8 +3,8 @@
     <div class="container mt-5">
         <div class="jumbotron jumbotron-fluid text-border-big">
             <div class="container">
-                <h3 class="font-weight-bold font-italic">#FreeEducation4All</h3>
-                <p class="lead">With aim to provide free education to everyone, we have initiated this idea!</p>
+                <h3 class="font-weight-bold font-italic">#FreeEducation</h3>
+                <p class="lead">With aim to provide free education to students, we have initiated this idea!</p>
             </div>
         </div>
 
@@ -136,7 +136,7 @@
 
                     <div class="form-row mt-4">
                         <div class="col-md mb-3">
-                            <button id="submitButton" type="submit" class="btn btn-success w-100" onClick="submitRegistration();">
+                            <button id="submitButton" type="submit" class="btn btn-outline-info w-100" onClick="submitRegistration();">
                                 <span id="btn-txt-submit">Submit</span>
                                 <span id="btn-txt-loadSubmit">
                                     <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
@@ -145,7 +145,7 @@
                             </button>
                         </div>
                         <div class="col-md mb-3">
-                            <button type="button" class="btn btn-secondary w-100" onClick="resetForm();">Reset</button>
+                            <button type="button" class="btn btn-outline-secondary w-100" onClick="resetForm();">Reset</button>
                         </div>
                     </div>
                     <span class="text-danger small">* Required field</span>
