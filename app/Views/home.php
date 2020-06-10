@@ -108,7 +108,7 @@
       </div>
       <div class="col-md-6 news-text">
       <div class="card mb-1 h-300">
-            <img class="card-img-top" height="50%" src="assets/images/JoinUs.png" alt="Card image cap">
+            <img class="card-img-top" height="50%" src="assets/images/JoinUs.jpg" alt="Card image cap">
             <div class="card-body">
                <p class="mt-4"><a href="joinUs" class="">Join us</a> to make your journey more purposeful!</p>
             </div>
