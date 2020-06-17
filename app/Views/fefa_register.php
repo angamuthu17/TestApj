@@ -13,7 +13,7 @@
                 <span aria-hidden="true">&times;</span>
             </button>
             <h4 class="alert-heading"><i class="far fa-check-circle mr-2 text-success" aria-hidden="true"></i>Done!</h4>
-            <p>Thank you for registering! you will receive an e-mail shortly from us.</p>
+            <p>Thank you for your interest! We will notify you via e-mail when the next online batch starts. Classes for current batch is from May 2020 to September 2020.</p>
         </div>
         <div id="errorAlert" class="alert alert-danger" role="alert" style="display:none;">
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -25,7 +25,7 @@
 
         <div class="card mb-4">
             <div class="card-header">
-                <h5 class="card-title">Registration</h5>
+                <h5 class="card-title">Students free weekend online classes registration</h5>
             </div>
             <div class="card-body">
                 <form id="contactForm" class="needs-validation" novalidate>

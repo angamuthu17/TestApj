@@ -13,7 +13,7 @@
                     <p class="text-left mb-0" data-toggle="collapse" data-target="#collapseOne" 
                         aria-expanded="true" aria-controls="collapseOne">
                         When was this trust started?
-                    <span class="float-right"><i class="far fa-plus-square"></i></span>
+                    <span class="float-right"><i class="far fa-minus-square"></i></span>
                     </p>
                 </div>
                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqList">
@@ -131,3 +131,22 @@
         </div>
     </div>
 </main>
+
+
+<script>
+    (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+            
+            $('.collapse').on('shown.bs.collapse', function(){
+                $(this).parent().find("span > .far").removeClass("fa-plus-square").addClass("fa-minus-square");
+            });
+            
+            $('.collapse').on('hidden.bs.collapse', function(){
+                $(this).parent().find("span > .far").removeClass("fa-minus-square").addClass("fa-plus-square");
+            });
+
+        }, false);
+    })();
+    
+</script>

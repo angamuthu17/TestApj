@@ -12,6 +12,7 @@
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/lib/slider/slideWiz.css" />
 
     <style>
       .bd-placeholder-img {

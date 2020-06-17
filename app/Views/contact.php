@@ -30,9 +30,9 @@
                         <a href="mailto:joinapj@gmail.com" id="emailText">joinapj@gmail.com</a> 
                     </span>
                     <span class="float-right social-media-links">
-                        <a href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a><span class="mr-3"></span>
-                        <a href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a><span class="mr-3"></span>
-                        <a href="#"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/apurposefuljourney"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a><span class="mr-3"></span>
+                        <a href="https://twitter.com/joinapj"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a><span class="mr-3"></span>
+                        <a href="https://www.instagram.com/joinapj"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
                     </span>
                 </div>
                 <img src="assets/images/pic8.jpeg" class="img-fluid mt-4 sm-no-display" alt="Responsive image"> 

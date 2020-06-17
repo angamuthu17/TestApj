@@ -1,71 +1,32 @@
+<style>
+
+    .table th, .table td {
+        padding: 0.25rem;
+        padding-right: 0.5rem;
+        border-top : none;
+        border-bottom : 1px solid #dee2e6;
+    }
+
+</style>
+
 <main role="main">
 
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active bg-secondary">
-        <img class="carousel-img-right" src="assets/images/pi6.jpeg" alt="First slide">
-        <div class="container">
-          <div class="carousel-caption text-right text-warning bg-apj-warn-light">
-            <h2><span>WHO WE ARE</span></h2>
-            <h4><span>APJIEN'S</span></h4>
-            <p><span>A Purposeful Journey is a brainchild of group of friends, who came up with thought of saving a small amount every month and give it back to society on need basis during summer 2015.</span></p>
-            <p><a class="btn btn-sm bg-warning text-light float-right" href="#" role="button">Read more</a></p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="carousel-item bg-secondary">
-        <img class="carousel-img-right" src="assets/images/pi3.jpeg" alt="First slide">
-        <div class="container">
-          <div class="carousel-caption text-center text-warning bg-apj-warn-light">
-            <h2><span>OUR MISSION</span></h2>
-            <h4><span>RICH OF FEATURES</span></h4>
-            <p><span>A Purposeful Journey aims to help talented children who need help to get quality education and support them to continue their studies.</span></p>
-            <p><a class="btn btn-sm bg-warning text-light float-right" href="#" role="button">Read more</a></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="carousel-item bg-secondary">
-        <img class="carousel-img-right" src="assets/images/pi9.jpeg" alt="First slide">
-        <div class="container">
-          <div class="carousel-caption text-left text-warning bg-apj-warn-light">
-            <h2><span>WHO WE ARE</span></h2>
-            <h4><span>APJIEN'S</span></h4>
-            <p><span>A Purposeful Journey is a brainchild of group of friends, who came up with thought of saving a small amount every month and give it back to society on need basis during summer 2015.</span></p>
-            <p><a class="btn btn-sm bg-warning text-light float-right" href="#" role="button">Read more</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-
+  <div class="slide-container mb-4" style="height: 500px; background-color: #00ACEE"></div>
 
   <!-- Marketing messaging and featurettes
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
-  <div class="container marketing">
+  <div class="container marketing mt-4">
 
-  <marquee class="container m-0">
+  <marquee class="container m-0" onmouseover="this.stop();" onmouseout="this.start();" scrollamount="8">
     <div class="apj-primary font-weight-bold" style="font-size: 1.2em;">
       <p class="d-inline-block mr-4 mb-0">Welcome to A Purposeful Journey !</p>
-      <p class="d-inline-block mr-4 ml-4 mb-0">Thank you for all our continues contributors and supports !</p>
-      <p class="d-inline-block mr-4 ml-4 mb-0">We pray for everyone health during Covid-19 pandemic.</p>
+      <p class="d-inline-block mr-4 ml-4 mb-0">Thank you for all our continues contributions and support!</p>
+      <p class="d-inline-block mr-4 ml-4 mb-0">We pray for everyone health during Covid-19 pandemic!</p>
       <p class="d-inline-block ml-4 mb-0">Stay safe and healthy !</p>
+      <p class="d-inline-block ml-4 mb-0">We support unity in diversity!</p>
+      <p class="d-inline-block ml-4 mb-0">No room for racism!</p>
     </div>
   </marquee>
 
@@ -129,7 +90,7 @@
           </div>
           <div class="card-body">
             <p class="card-text">This program gives platform to our volunteers to visit government schools and educate young minds on their available time ...</p>
-            <a href="aboutUs#apjPrograms" class="btn btn-outline-info btn-sm">Read more</a>
+            <a href="initiatives" class="btn btn-outline-info btn-sm">Read more</a>
           </div>
         </div>
       </div>
@@ -140,7 +101,7 @@
           </div>
           <div class="card-body">
             <p class="card-text">This initiative to provide morning and evening milk to old age home and children care center from our regular fund. This will ...</p>
-            <a href="aboutUs#apjPrograms" class="btn btn-outline-info btn-sm">Read more</a>
+            <a href="initiatives" class="btn btn-outline-info btn-sm">Read more</a>
           </div>
         </div>
       </div>
@@ -151,7 +112,7 @@
           </div>
           <div class="card-body">
             <p class="card-text">This program creates great opportunities for students to explore new places with group of teachers and volunteers. It provides ...</p>
-            <a href="aboutUs#apjPrograms" class="btn btn-outline-info btn-sm">Read more</a>
+            <a href="initiatives" class="btn btn-outline-info btn-sm">Read more</a>
           </div>
         </div>
       </div>
@@ -162,11 +123,103 @@
           </div>
           <div class="card-body">
             <p class="card-text">It is the backbone for our other programs/initiatives since it raises fund for us to run everything we plan for positive changes in ...</p>
-            <a href="aboutUs#apjPrograms" class="btn btn-outline-info btn-sm">Read more</a>
+            <a href="initiatives" class="btn btn-outline-info btn-sm">Read more</a>
           </div>
         </div>
       </div>
     </div>
+
+    <hr class="featurette-divider">
+
+    <p class="display-4 text-center mb-4">#FreeEducation</p>
+    
+    <div class="row">
+        <div class="col-sm-2"></div>
+          <div class="col-sm-4 mt-2">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white bg-dark">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">Python</h3>
+                        <span>
+                            <img src="assets/images/icons/python.png" alt="Python" width="100px" height="100px" class="mx-auto d-block">
+                        </span>
+                        <h5 class="card-title text-center mt-1">Ms. Kiruthika Sivaraman</h5>
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body">
+                        <table class="table small">
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Name</th>
+                                    <td>Ms. Kiruthika Sivaraman</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Education</th>
+                                    <td>Master in Computer Science</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Years of experience</th>
+                                    <td>10 +</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Field of experience</th>
+                                    <td>Computer Science</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Areas of Interest</th>
+                                    <td>Teaching, Arts & Craft, Travelling</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 mt-2">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white bg-dark">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">Basic English</h3>
+                        <img src="assets/images/icons/english.jpg" alt="Python" width="150px" height="100px" class="mx-auto d-block">
+                        <h5 class="card-title text-center mt-1">Mr. Angamuthu Natarajan</h5>
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body">
+
+                        <table class="table small">
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Name</th>
+                                    <td>Mr. Angamuthu Natarajan</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Education</th>
+                                    <td>Bachelor of Engineering</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Years of experience</th>
+                                    <td>11 +</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Fields of experience</th>
+                                    <td>Training, Administration and IT</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Additional certification</th>
+                                    <td>ITIL, PAHM, SAFe SM</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+
 
     <hr class="featurette-divider">
 
