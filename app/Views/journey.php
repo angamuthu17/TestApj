@@ -1,7 +1,7 @@
 <main role="main">
   <div class="container mt-5">
 
-  <div id="whoWeAre" class="jumbotron jumbotron-fluid text-border-big">
+  <div class="jumbotron jumbotron-fluid text-border-big">
       <div class="container">
           <h3>Our Foundation</h3>
       </div>
@@ -34,7 +34,7 @@
     </div>
   </div>
 
-  <div id="apjMission" class="jumbotron jumbotron-fluid text-border-big mt-4">
+  <div id="milestones" class="jumbotron jumbotron-fluid text-border-big mt-4">
       <div class="container">
           <h3>Our Milestones</h3>
       </div>

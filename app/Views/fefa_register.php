@@ -13,7 +13,7 @@
                 <span aria-hidden="true">&times;</span>
             </button>
             <h4 class="alert-heading"><i class="far fa-check-circle mr-2 text-success" aria-hidden="true"></i>Done!</h4>
-            <p>Thank you for your interest! We will notify you via e-mail when the next online batch starts. Classes for current batch is from May 2020 to September 2020.</p>
+            <p>Thank you for your interest! We will notify you via e-mail when the next online batch starts. Classes for current batch has started from May 2020 to September 2020.</p>
         </div>
         <div id="errorAlert" class="alert alert-danger" role="alert" style="display:none;">
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -32,14 +32,14 @@
                     <div class="form-row">
                         <div class="col-md-6 mb-3">
                             <label for="studentFirstName">First name <span class="text-danger small">*</span></label>
-                            <input type="text" class="form-control" id="studentFirstName" placeholder="First name" pattern="^[A-Za-z ]+$" required />
+                            <input type="text" class="form-control" id="studentFirstName" name="studentFirstName" placeholder="First name" pattern="^[A-Za-z ]+$" required />
                             <div class="invalid-feedback">
                                 Please enter your first name.
                             </div>
                         </div>
                         <div class="col-md-6 mb-3">
                             <label for="studentLastName">Last name <span class="text-muted small">(optional)</span></label>
-                            <input type="text" class="form-control" id="studentLastName" placeholder="Last name" pattern="^[A-Za-z ]+$"/>
+                            <input type="text" class="form-control" id="studentLastName" name="studentLastName" placeholder="Last name" pattern="^[A-Za-z ]+$"/>
                             <div class="invalid-feedback">
                                 Please enter a valid last name.
                             </div>
@@ -49,7 +49,7 @@
                     <div class="form-row">
                         <div class="col-md-6 mb-3">
                             <label for="studentEmail">Email address <span class="text-danger small">*</span></label>
-                            <input type="email" class="form-control" id="studentEmail" placeholder="name@example.com" required>
+                            <input type="email" class="form-control" id="studentEmail" name="studentEmail" placeholder="name@example.com" required>
                             <div class="invalid-feedback">
                                 Please enter a valid e-mail address.
                             </div>
@@ -60,7 +60,7 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text" id="phonePrepend">+91</span>
                                 </div>
-                                <input type="" class="form-control" id="studentMobile" placeholder="987XXXXXXX" aria-describedby="phonePrepend" pattern="[0-9]{10}">
+                                <input type="" class="form-control" id="studentMobile" name="studentMobile" placeholder="987XXXXXXX" aria-describedby="phonePrepend" pattern="[0-9]{10}">
                                 <div class="invalid-feedback">
                                     Please enter a valid mobile number.
                                 </div>
@@ -71,14 +71,14 @@
                     <div class="form-row">
                         <div class="col-md-6 mb-3">
                             <label for="studentAge">Age <span class="text-danger small">*</span></label>
-                            <input type="text" class="form-control" id="studentAge" placeholder="20" required pattern="[0-9]{1,2}">
+                            <input type="text" class="form-control" id="studentAge" name="studentAge" placeholder="20" required pattern="[0-9]{1,2}">
                             <div class="invalid-feedback">
                                 Please enter your age.
                             </div>
                         </div>
                         <div class="col-md-6 mb-3">
                             <label for="studentLocation">Location <span class="text-danger small">*</span></label>
-                            <input type="text" class="form-control" id="studentLocation" placeholder="Madurai" required pattern="^[A-Za-z ]+$">
+                            <input type="text" class="form-control" id="studentLocation" name="studentLocation" placeholder="Madurai" required pattern="^[A-Za-z ]+$">
                             <div class="invalid-feedback">
                                 Please enter your place. For example, <span class="font-weight-bold font-italic"> Madurai</span>.
                             </div>
@@ -90,7 +90,7 @@
                     <div class="form-row">
                         <div class="col-md-3 mb-3">
                             <label for="studentEducation">Educational qualification <span class="text-danger small">*</span></label>
-                            <select class="form-control" id="studentEducation" required>
+                            <select class="form-control" id="studentEducation" name="studentEducation" required>
                                 <option value="">-- Select --</option>
                                 <option value="10">10 th</option>
                                 <option value="11">11 th</option>
@@ -104,7 +104,7 @@
                         </div>
                         <div class="col-md-9 mb-3">
                             <label for="studentInstitutionName">School / College name <span class="text-danger small">*</span></label>
-                            <input type="text" class="form-control" id="studentInstitutionName" placeholder="School / College name" required >
+                            <input type="text" class="form-control" id="studentInstitutionName" name="studentInstitutionName" placeholder="School / College name" required >
                             <div class="invalid-feedback">
                                 Please enter your school / college name where you study.
                             </div>
@@ -114,7 +114,7 @@
                     <div class="form-row">
                         <div class="col-md-3 mb-3">
                             <label for="studentAvailability">Availability on saturday/sunday? <span class="text-danger small">*</span></label>
-                            <select class="form-control" id="studentAvailability" required>
+                            <select class="form-control" id="studentAvailability" name="studentAvailability" required>
                                 <option value="">-- Select --</option>
                                 <option value="Y">Yes, I am available.</option>
                                 <option value="N">N0, I am not available.</option>   
@@ -125,7 +125,7 @@
                         </div>
                         <div class="col-md-9 mb-3">
                             <label for="studentsInterest">Subjects interested <span class="text-danger small">*</span></label>
-                            <input type="text" class="form-control" id="studentsInterest" placeholder="Python, English, Java" required >
+                            <input type="text" class="form-control" id="studentsInterest" name="studentsInterest" placeholder="Python, English, Java" required >
                             <div class="invalid-feedback">
                                 Please enter your interested subjects.
                             </div>
@@ -172,7 +172,8 @@
       
     function submitRegistration()
     {
-
+        $('#successAlert').hide();
+        $('#errorAlert').hide();
         disableSubmit();
 
         // Check validity
@@ -192,7 +193,7 @@
             url: 'doRegister',
             data: $('.needs-validation').serialize(),
             success: function () {
-                resetForm();
+                //resetForm();
                 $('#successAlert').show();
                 enableSubmit();
                 $('html, body').animate({

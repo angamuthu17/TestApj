@@ -9,12 +9,12 @@ class Email extends BaseConfig
 	/**
 	 * @var string
 	 */
-	public $fromEmail = 'spaceinone@gmail.com';
+	public $fromEmail = '';
 
 	/**
 	 * @var string
 	 */
-	public $fromName = 'A Purposeful Journey Team';
+	public $fromName = '';
 
 	/**
 	 * @var string
@@ -26,49 +26,49 @@ class Email extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $userAgent = 'CodeIgniter';
+	public $userAgent = '';
 
 	/**
 	 * The mail sending protocol: mail, sendmail, smtp
 	 *
 	 * @var string
 	 */
-	public $protocol = 'mail';
+	public $protocol = '';
 
 	/**
 	 * The server path to Sendmail.
 	 *
 	 * @var string
 	 */
-	public $mailPath = '/usr/sbin/sendmail';
+	public $mailPath = '';
 
 	/**
 	 * SMTP Server Address
 	 *
 	 * @var string
 	 */
-	public $SMTPHost = 'smtp.gmail.com';
+	public $SMTPHost = '';
 
 	/**
 	 * SMTP Username
 	 *
 	 * @var string
 	 */
-	public $SMTPUser = 'spaceinone@gmail.com';
+	public $SMTPUser = '';
 
 	/**
 	 * SMTP Password
 	 *
 	 * @var string
 	 */
-	public $SMTPPass = 'Vig@26154190';
+	public $SMTPPass = '';
 
 	/**
 	 * SMTP Port
 	 *
 	 * @var integer
 	 */
-	public $SMTPPort = 587;
+	public $SMTPPort = '';
 
 	/**
 	 * SMTP Timeout (in seconds)

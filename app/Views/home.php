@@ -55,6 +55,7 @@
             
             <marquee height="100%" width="100%" behavior="scroll" direction="up" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
               <ul class="list-unstyled">
+                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> We have taken small part of contribution fund towards medical expenses of a baby born with Ventricular Septal Defect (VSD) @ a hospital in Chennai for the duration of 7 days in June 2020. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> June-2020 contribution to sellur, Madurai old age home has been sent. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Additional financial support has been provided to Sellur, Madurai old age home. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Evening student's education centre in Madurai is temporarily closed due to COVID-19. </li>
@@ -141,7 +142,7 @@
                     <div class="card-body">
                         <h3 class="card-title text-center">Python</h3>
                         <span>
-                            <img src="assets/images/icons/python.png" alt="Python" width="100px" height="100px" class="mx-auto d-block">
+                            <img src="assets/images/icons/python.png" alt="Python" width="150px" height="150px" class="mx-auto d-block">
                         </span>
                         <h5 class="card-title text-center mt-1">Ms. Kiruthika Sivaraman</h5>
                     </div>
@@ -172,6 +173,7 @@
                                 </tr>
                             </tbody>
                         </table>
+                        <div class="text-center"><a href="fefa" class="btn btn-outline-info btn-sm">Register</a></div>
                     </div>
                 </div>
             </div>
@@ -181,7 +183,7 @@
                 <div class="card-front text-white bg-dark">
                     <div class="card-body">
                         <h3 class="card-title text-center">Basic English</h3>
-                        <img src="assets/images/icons/english.jpg" alt="Python" width="150px" height="100px" class="mx-auto d-block">
+                        <img src="assets/images/icons/english.jpg" alt="Python" width="200px" height="150px" class="mx-auto d-block">
                         <h5 class="card-title text-center mt-1">Mr. Angamuthu Natarajan</h5>
                     </div>
                 </div>
@@ -212,7 +214,7 @@
                                 </tr>
                             </tbody>
                         </table>
-
+                        <div class="text-center"><a href="fefa" class="btn btn-outline-info btn-sm">Register</a></div>
                     </div>
                 </div>
             </div>

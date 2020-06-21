@@ -18,7 +18,7 @@
                 </div>
                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqList">
                     <div class="card-body">
-                    It was in operation unofficially as support to social activities since 2015 but officially registered as charitable trust in 2017. Please refer <a href='aboutUs#whoWeAre'>About Us</a> page.
+                    It was in operation unofficially as support to social activities since 2015 but officially registered as charitable trust in 2017. Please refer <a href='journey'>Our Journey</a> page.
                     </div>
                 </div>
             </div>
@@ -123,7 +123,7 @@
                 </div>
                 <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#faqList">
                     <div class="card-body">
-                    Please refer <a href="initiatives">'Our Initiatives'</a> and <a href="aboutUs#apjPrograms">'About Us'</a> page.
+                    Please refer <a href="initiatives">'Our Initiatives'</a> and <a href="journey#milestones">'Our Milestones'</a> page.
                     </div>
                 </div>
             </div>

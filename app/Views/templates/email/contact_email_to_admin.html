@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="Vignesh Arumugam">
+      <title>A Purposeful Journey</title>
+      
+      <style>
+        .mail-heading
+        {
+          margin-top: 25px;
+          padding: 25px;
+          font-weight: 600;
+          text-align: center;
+        }
+
+        .page{
+          width: 100%;        }
+
+        .table {
+          font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+          margin-bottom: 25px;
+        }
+
+        .table td, .table th {
+          border: 1px solid #000000;
+          padding: 8px;
+        }
+
+        .table tr:nth-child(even){background-color: #f2f2f2;}
+
+        .table th {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: center;
+          background-color: #6c757d;
+          background: #6c757d;
+          color: white;
+        }
+
+        .footer
+        {
+          background-color: #6c757d;
+          background: #6c757d;
+          padding: 10px;
+          color: white;
+          text-align: center;
+          margin-top: 10px;;
+        }
+      </style>
+</head>
+<body>
+
+    <div class="page">
+        <h3 class="mail-heading">You have received a message from {userName}</h3>
+
+        <h4>Hello Admin,</h4>
+        <p>Below are the details of user contacted through Contact Us page.</p>
+
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Title</th>
+                <th scope="col">Data</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row">First Name</td>
+                <td>{firstName}</td>
+              </tr>
+              <tr>
+                <td scope="row">Last Name</td>
+                <td>{lastName}</td>
+              </tr>
+              <tr>
+                <td scope="row">Email Address</td>
+                <td>{emailAddress}</td>
+              </tr>
+              <tr>
+                <td scope="row">Mobile Number</td>
+                <td>{mobileNumber}</td>
+              </tr>
+              <tr>
+                <td scope="row">Subject</td>
+                <td>{messageSubject}</td>
+              </tr>
+              <tr>
+                <td scope="row">Subject Description</td>
+                <td>{subjectOthDesc}</td>
+              </tr>
+              <tr>
+                <td scope="row">Message</td>
+                <td>{userMessage}</td>
+              </tr>
+              <tr>
+                <td scope="row">IP Address</td>
+                <td>{ipAddress}</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <br/>
+          <h4>Thank You,
+          <br/>
+          A Purposeful Journey team  - <a style="color : #4473c5;" href="http://joinapj.com/" target="_blank">www.joinapj.com</a></h4>
+          
+    
+        <div class="footer">
+            <p class="text-light text-center">&copy; A Purposeful Journey</p>
+        </div>
+    </div>
+</body>
+
+

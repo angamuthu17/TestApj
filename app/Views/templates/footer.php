@@ -3,9 +3,9 @@
 <footer class="container-fluid bg-secondary p-4">
     <div class="row h-75 align-content-center">
         <div class="col-sm text-center mb-3">
-            <a href="https://www.facebook.com/apurposefuljourney"><i class="fa fa-facebook fa-lg mr-4" aria-hidden="true"></i></a>
-            <a href="https://twitter.com/joinapj"><i class="fa fa-twitter fa-lg mr-4" aria-hidden="true"></i></a>
-            <a href="https://www.instagram.com/joinapj"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/apurposefuljourney" target="_blank"><i class="fa fa-facebook fa-lg mr-4" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/joinapj" target="_blank"><i class="fa fa-twitter fa-lg mr-4" aria-hidden="true"></i></a>
+            <a href="https://instagram.com/joinapj" target="_blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
         </div>
         <div class="col-sm text-center mb-3">
             <a class="font-weight-bold border-right p-2" href="fefa">#FreeEducation  </a>
@@ -98,12 +98,18 @@
             // more slides here
         ];
 
+        let colVal = 30;
+        if ($(window).width() < 600) {
+            colVal = 10;
+        }
+
         $('.slide-container').slideWiz({
             file: mySlides,
             auto: true,
             speed: 4000, // in ms
             type :'box3D',
-            animation : 'slice'
+            animation : 'slice',
+            col : colVal
         })
 
     </script>

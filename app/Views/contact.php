@@ -30,9 +30,9 @@
                         <a href="mailto:joinapj@gmail.com" id="emailText">joinapj@gmail.com</a> 
                     </span>
                     <span class="float-right social-media-links">
-                        <a href="https://www.facebook.com/apurposefuljourney"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a><span class="mr-3"></span>
-                        <a href="https://twitter.com/joinapj"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a><span class="mr-3"></span>
-                        <a href="https://www.instagram.com/joinapj"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/apurposefuljourney" target="_blank"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a><span class="mr-3"></span>
+                        <a href="https://twitter.com/joinapj" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a><span class="mr-3"></span>
+                        <a href="https://www.instagram.com/joinapj" target="_blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
                     </span>
                 </div>
                 <img src="assets/images/pic8.jpeg" class="img-fluid mt-4 sm-no-display" alt="Responsive image"> 
@@ -42,14 +42,14 @@
                     <div class="form-row">
                         <div class="col-md-6 mb-3">
                             <label for="firstName">First name <span class="text-danger small">*</span></label>
-                            <input type="text" class="form-control" id="firstName" placeholder="First name" pattern="^[A-Za-z ]+$" required />
+                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First name" pattern="^[A-Za-z ]+$" required />
                             <div class="invalid-feedback">
                                 Please enter your first name.
                             </div>
                         </div>
                         <div class="col-md-6 mb-3">
                             <label for="lastName">Last name <span class="text-muted small">(optional)</span></label>
-                            <input type="text" class="form-control" id="lastName" placeholder="Last name" pattern="^[A-Za-z ]+$"/>
+                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last name" pattern="^[A-Za-z ]+$"/>
                             <div class="invalid-feedback">
                                 Please enter a valid name.
                             </div>
@@ -59,7 +59,7 @@
                     <div class="form-row">
                         <div class="col-md-6 mb-3">
                             <label for="contactEmail">Email address <span class="text-danger small">*</span></label>
-                            <input type="email" class="form-control" id="contactEmail" placeholder="name@example.com" required>
+                            <input type="email" class="form-control" id="contactEmail" name="contactEmail" placeholder="name@example.com" required>
                             <div class="invalid-feedback">
                                 Please a valid e-mail address.
                             </div>
@@ -70,7 +70,7 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text" id="phonePrepend">+91</span>
                                 </div>
-                                <input type="" class="form-control" id="phone" placeholder="987XXXXXXX" aria-describedby="phonePrepend" pattern="[0-9]{10}">
+                                <input type="" class="form-control" id="phone" name="phone" placeholder="987XXXXXXX" aria-describedby="phonePrepend" pattern="[0-9]{10}">
                                 <div class="invalid-feedback">
                                     Please enter a valid mobile number.
                                 </div>
@@ -81,11 +81,12 @@
                     <div class="form-row">
                         <div class="col-md mb-3">
                             <label for="subject">Subject <span class="text-danger small">*</span></label>
-                            <select class="form-control" id="subject" required>
+                            <select class="form-control" id="subject" name="subject" required>
                                 <option value="">-- Select --</option>
                                 <option value="onlineClass">Feedback / suggestion regarding free online classes</option>
                                 <option value="joining">Feedback / suggestion regarding joining a initiative</option>
                                 <option value="contribution">Feedback / suggestion regarding contributing</option>
+                                <option value="other">Other</option>
                             </select>
                             <div class="invalid-feedback">
                                 Please select the subject.
@@ -93,10 +94,20 @@
                         </div>
                     </div>
 
+                    <div class="form-row" id="otherSub">
+                        <div class="col-md mb-3">
+                            <label for="subjectOtherDesc">Subject Other Description<span class="text-danger small">*</span></label>
+                            <input type="text" class="form-control" id="subjectOtherDesc" name="subjectOtherDesc" placeholder="Subject description"/>
+                            <div class="invalid-feedback">
+                                Please enter a subject description
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="form-row">
                         <div class="col-md mb-3">
                             <label for="userMessage">Your message <span class="text-danger small">*</span></label>
-                            <textarea class="form-control" id="userMessage" rows="5" required></textarea>
+                            <textarea class="form-control" id="userMessage" name="userMessage" rows="5" required></textarea>
                             <div class="invalid-feedback">
                                 Please enter your message / feedback.
                             </div>
@@ -133,12 +144,32 @@
             $('#successAlert').hide();
             $('#errorAlert').hide();
             $('#btn-txt-loadSubmit').hide();
+            $('#otherSub').hide();
+
+            $( "#subject" ).change(function() {
+                var val = $(this).val(); 
+                if (val == 'other')
+                {
+                    $('#subjectOtherDesc').val('');
+                    $('#otherSub').show();
+                    $('#subjectOtherDesc').attr("required", "reuired");
+                }
+                else
+                {
+                    $('#subjectOtherDesc').val('');
+                    $('#otherSub').hide();
+                    $('#subjectOtherDesc').removeAttr("required");
+                }
+            });
 
         }, false);
     })();
       
     function submitFeedback()
     {
+
+        $('#successAlert').hide();
+        $('#errorAlert').hide();
 
         disableSubmit();
 
@@ -153,6 +184,7 @@
             enableSubmit();
             return false;
         }
+        
         
         $.ajax({
             type: 'post',
@@ -173,7 +205,27 @@
                 }, 1000);
             }
         });
+        /**
+        let str = "name=dsdasd&mobile=123123&email=spaceinone%40gmail.com&subject=dsds&message=sdsf";
+        $.ajax({
+            type: "POST",
+            url: "http://joinapj.com/api/mail/",
+            data: str,
+            success: function(msg) {
+                // alert(msg);
+                if (msg == 'sent') {
+                $("#sendmessage").addClass("show");
+                $("#errormessage").removeClass("show");
+                $('.contactForm').find("input, textarea", "select").val("");
+                } else {
+                $("#sendmessage").removeClass("show");
+                $("#errormessage").addClass("show");
+                $('#errormessage').html(msg);
+                }
 
+            }
+        });
+        **/
         return false;
     }
 
