@@ -14,6 +14,10 @@
     <link href="assets/css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/lib/slider/slideWiz.css" />
 
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lcl5akZAAAAABwN3d-P6ClqwvlNTB4diNV9piel"></script>
+
+
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -83,7 +87,7 @@
           <a class="nav-link" href="faq">FAQ</a>
         </li>
         <li id="fefa" class="nav-item nav-divider">
-          <a class="nav-link nav-highlight font-weight-bold font-italic" href="fefa">#FreeEducation</a>
+          <a class="nav-link nav-highlight font-weight-bold font-italic" href="fefa">#FreeTraining</a>
         </li>
       </ul>
     </div>

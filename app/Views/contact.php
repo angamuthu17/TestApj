@@ -12,7 +12,7 @@
                 <span aria-hidden="true">&times;</span>
             </button>
             <h4 class="alert-heading"><i class="far fa-check-circle mr-2 text-success" aria-hidden="true"></i>Done!</h4>
-            <p>Thank you for contacting us. We will get back to you shortly.</p>
+            <p>Thank you for contacting us. We will get back to you within 48 hrs.</p>
         </div>
         <div id="errorAlert" class="alert alert-danger" role="alert" style="display:none;">
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -24,12 +24,8 @@
 
         <div class="row mt-4 mb-4">
             <div class="col-md border-rt-secondary border-bottom">
-                <div class="mt-4 font-size-13">
-                    <span>
-                        <label for="emailText">E-mail us to <label>
-                        <a href="mailto:joinapj@gmail.com" id="emailText">joinapj@gmail.com</a> 
-                    </span>
-                    <span class="float-right social-media-links">
+                <div class="mt-4 font-size-13 text-center">
+                    <span class="social-media-links">
                         <a href="https://www.facebook.com/apurposefuljourney" target="_blank"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a><span class="mr-3"></span>
                         <a href="https://twitter.com/joinapj" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a><span class="mr-3"></span>
                         <a href="https://www.instagram.com/joinapj" target="_blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
@@ -85,7 +81,7 @@
                                 <option value="">-- Select --</option>
                                 <option value="onlineClass">Feedback / suggestion regarding free online classes</option>
                                 <option value="joining">Feedback / suggestion regarding joining a initiative</option>
-                                <option value="contribution">Feedback / suggestion regarding contributing</option>
+                                <option value="contribution">Feedback / suggestion regarding contribution</option>
                                 <option value="other">Other</option>
                             </select>
                             <div class="invalid-feedback">
@@ -113,10 +109,11 @@
                             </div>
                         </div>
                     </div>
+                    <hr/>
 
                     <div class="form-row">
                         <div class="col-md mb-3">
-                            <button id="submitButton" type="submit" class="btn btn-outline-info w-100" onClick="submitFeedback();">
+                            <button id="submitButton" type="submit" class="btn btn-outline-info w-100" onClick="submitFeedback(event);">
                                 <span id="btn-txt-submit">Submit</span>
                                 <span id="btn-txt-loadSubmit">
                                     <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
@@ -165,13 +162,11 @@
         }, false);
     })();
       
-    function submitFeedback()
+    function submitFeedback(event)
     {
 
         $('#successAlert').hide();
         $('#errorAlert').hide();
-
-        disableSubmit();
 
         // Check validity
         var form = document.getElementsByClassName('needs-validation')[0];
@@ -181,51 +176,38 @@
             event.stopPropagation();
 
             form.classList.add('was-validated');
-            enableSubmit();
             return false;
         }
-        
-        
-        $.ajax({
-            type: 'post',
-            url: 'doFeedbackSubmit',
-            data: $('.needs-validation').serialize(),
-            success: function () {
-                $('#successAlert').show();
-                enableSubmit();
-                $('html, body').animate({
-                    scrollTop: $(".jumbotron").offset().top
-                }, 1000);
-            },
-            error: function () {
-                $('#errorAlert').show();
-                enableSubmit();
-                $('html, body').animate({
-                    scrollTop: $(".jumbotron").offset().top
-                }, 1000);
-            }
-        });
-        /**
-        let str = "name=dsdasd&mobile=123123&email=spaceinone%40gmail.com&subject=dsds&message=sdsf";
-        $.ajax({
-            type: "POST",
-            url: "http://joinapj.com/api/mail/",
-            data: str,
-            success: function(msg) {
-                // alert(msg);
-                if (msg == 'sent') {
-                $("#sendmessage").addClass("show");
-                $("#errormessage").removeClass("show");
-                $('.contactForm').find("input, textarea", "select").val("");
-                } else {
-                $("#sendmessage").removeClass("show");
-                $("#errormessage").addClass("show");
-                $('#errormessage').html(msg);
-                }
 
-            }
+        event.preventDefault();
+        grecaptcha.ready(function() {
+          grecaptcha.execute('6Lcl5akZAAAAABwN3d-P6ClqwvlNTB4diNV9piel', {action: 'submit_contact_form'}).then(function(token) {
+            disableSubmit();
+            $.ajax({
+                type: 'post',
+                url: 'doFeedbackSubmit',
+                data: $('.needs-validation').serialize() + '&token=' + token,
+                success: function (obj) {
+                    console.log(obj);
+                    $('#successAlert').show();
+                    enableSubmit();
+                    $('html, body').animate({
+                        scrollTop: $(".jumbotron").offset().top
+                    }, 1000);
+                },
+                error: function (obj) {
+                    console.log(obj);
+                    $('#errorAlert').show();
+                    enableSubmit();
+                    $('html, body').animate({
+                        scrollTop: $(".jumbotron").offset().top
+                    }, 1000);
+                }
+            });
+            
+          });
         });
-        **/
+
         return false;
     }
 

@@ -1,9 +1,11 @@
+
 <main role="main">
 
     <div class="container mt-5">
+
         <div class="jumbotron jumbotron-fluid text-border-big">
             <div class="container">
-                <h3 class="font-weight-bold font-italic">#FreeEducation</h3>
+                <h3 class="font-weight-bold font-italic">#FreeTraining</h3>
                 <p class="lead">With aim to provide free education to students, we have initiated this idea!</p>
             </div>
         </div>
@@ -132,11 +134,43 @@
                         </div>
                     </div>
 
+                    <div class="form-row">
+                        <div class="col-md-3 mb-3">
+                            <label for="referalSource">Referal Source <span class="text-danger small">*</span></label>
+                            <input type="text" class="form-control" id="referalSource" name="referalSource" placeholder="Ex: Facebook or My friend Steve" required >
+                            <div class="invalid-feedback">
+                                Please enter the detail on how you came to know about the program. <br/><i>Ex: Facebook, Through a friend Steve, Online browsing.</i>
+                            </div>
+                        </div>
+                        <div class="col-md-9 mb-3">
+
+                            <div class="form-check mt-4">
+                                <input class="form-check-input" type="checkbox" value="" id="declaration" name="declaration" required>
+                                <label class="form-check-label text-justify" for="declaration">
+                                    I hereby declare that all information entered for registeration is complete, true and correct in all aspect.
+                                </label>
+                                <div class="invalid-feedback">
+                                    You need to complete the declaration.
+                                </div>
+                            </div>
+                            <div class="form-check mt-1">
+                                <input class="form-check-input" type="checkbox" value="" id="privacyNote" name="privacyNote" required>
+                                <label class="form-check-label text-justify" for="privacyNote">
+                                    I confirm that I have read and agree to A Purposeful journey's <a href="#" data-toggle="modal" data-target="#privacyModal">Privacy Policy &amp; Terms of Service</a>.
+                                </label>
+                                <div class="invalid-feedback">
+                                    Please read and agree to the Privacy Policy &amp; Terms of Service to proceed further.
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
                     <hr/>
 
                     <div class="form-row mt-4">
                         <div class="col-md mb-3">
-                            <button id="submitButton" type="submit" class="btn btn-outline-info w-100" onClick="submitRegistration();">
+                            <button id="submitButton" type="submit" class="btn btn-outline-info w-100" onClick="submitRegistration(event);">
                                 <span id="btn-txt-submit">Submit</span>
                                 <span id="btn-txt-loadSubmit">
                                     <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
@@ -154,6 +188,81 @@
         </div>
 
     </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="privacyModal" tabindex="-1" role="dialog" aria-labelledby="privacyModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title" id="exampleModalLabel">Privacy Policy &amp; Terms of Service</h6>
+            </div>
+            <div class="modal-body">
+                <h6>Privacy Policy</h6>
+                <p class="text-justify small">
+                By accessing the website at http://www.joinapj.com, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.
+                </p>
+                <h6>Usage of Personal Information</h6>
+                <p>
+                    <ul class="small">
+                        <li>Nulla volutpat aliquam velit
+                            <ul>
+                                <li>Phasellus iaculis neque</li>
+                                <li>Purus sodales ultricies</li>
+                                <li>Vestibulum laoreet porttitor sem</li>
+                                <li>Ac tristique libero volutpat at</li>
+                            </ul>
+                        </li>
+                        <li>Nulla volutpat aliquam velit
+                            <ul>
+                                <li>Phasellus iaculis neque</li>
+                                <li>Purus sodales ultricies</li>
+                                <li>Vestibulum laoreet porttitor sem</li>
+                                <li>Ac tristique libero volutpat at</li>
+                            </ul>
+                        </li>
+                        <li>Nulla volutpat aliquam velit
+                            <ul>
+                                <li>Phasellus iaculis neque</li>
+                                <li>Purus sodales ultricies</li>
+                                <li>Vestibulum laoreet porttitor sem</li>
+                                <li>Ac tristique libero volutpat at</li>
+                            </ul>
+                        </li>
+                        <li>Nulla volutpat aliquam velit
+                            <ul>
+                                <li>Phasellus iaculis neque</li>
+                                <li>Purus sodales ultricies</li>
+                                <li>Vestibulum laoreet porttitor sem</li>
+                                <li>Ac tristique libero volutpat at</li>
+                            </ul>
+                        </li>
+                        <li>Nulla volutpat aliquam velit
+                            <ul>
+                                <li>Phasellus iaculis neque</li>
+                                <li>Purus sodales ultricies</li>
+                                <li>Vestibulum laoreet porttitor sem</li>
+                                <li>Ac tristique libero volutpat at</li>
+                            </ul>
+                        </li>
+                        <li>Nulla volutpat aliquam velit
+                            <ul>
+                                <li>Phasellus iaculis neque</li>
+                                <li>Purus sodales ultricies</li>
+                                <li>Vestibulum laoreet porttitor sem</li>
+                                <li>Ac tristique libero volutpat at</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-outline-secondary mx-auto" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
 </main>
 
 
@@ -170,7 +279,7 @@
         }, false);
     })();
       
-    function submitRegistration()
+    function submitRegistration(event)
     {
         $('#successAlert').hide();
         $('#errorAlert').hide();
@@ -187,28 +296,36 @@
             enableSubmit();
             return false;
         }
-        
-        $.ajax({
-            type: 'post',
-            url: 'doRegister',
-            data: $('.needs-validation').serialize(),
-            success: function () {
-                //resetForm();
-                $('#successAlert').show();
-                enableSubmit();
-                $('html, body').animate({
-                    scrollTop: $(".jumbotron").offset().top
-                }, 1000);
-            },
-            error: function () {
-                $('#errorAlert').show();
-                enableSubmit();
-                $('html, body').animate({
-                    scrollTop: $(".jumbotron").offset().top
-                }, 1000);
-            }
-        });
 
+        event.preventDefault();
+        grecaptcha.ready(function() {
+          grecaptcha.execute('6Lcl5akZAAAAABwN3d-P6ClqwvlNTB4diNV9piel', {action: 'submit_fefa_register'}).then(function(token) {
+            
+            $.ajax({
+                type: 'post',
+                url: 'doRegister',
+                data: $('.needs-validation').serialize() + '&token=' + token,
+                success: function (obj) {
+                    console.log(obj);
+                    $('#successAlert').show();
+                    enableSubmit();
+                    $('html, body').animate({
+                        scrollTop: $(".jumbotron").offset().top
+                    }, 1000);
+                },
+                error: function (obj) {
+                    console.log(obj);
+                    $('#errorAlert').show();
+                    enableSubmit();
+                    $('html, body').animate({
+                        scrollTop: $(".jumbotron").offset().top
+                    }, 1000);
+                }
+            });
+            
+          });
+        });
+        
         return false;
     }
 

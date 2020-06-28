@@ -13,6 +13,8 @@ class EmailUtil
         
         $this->sendThankYouToUser($mail, $contactFormData);
         $this->sendEmailToAdmin($mail, $contactFormData);
+
+        return true;
     }
 
     private function sendThankYouToUser($mail, $contactFormData)
@@ -23,9 +25,12 @@ class EmailUtil
 
             if ($mail != null)
             {
+                $mail->setFrom('joinapj@gmail.com', 'A Purposeful Journey');
+                $mail->addReplyTo('joinapj@gmail.com', 'A Purposeful Journey');
+
                 $mail->ClearAddresses();
                 $mail->addAddress($contactFormData->emailAddress , $contactFormData->firstName);
-                $mail->Subject = 'Thank you for contacting "A Purposeful Journey!" ';
+                $mail->Subject = 'Thank you for contacting A Purposeful Journey!';
                 
                 $userName = $contactFormData->firstName . ' ' .$contactFormData->lastName;
                 $mailBody = str_replace("{userName}", $userName, $mailBody);
@@ -43,7 +48,6 @@ class EmailUtil
         }
         catch (Exception $e) 
         {
-            echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
             log_message('error',"Message could not be sent. Mailer Error: {$mail->ErrorInfo}");
         }
     }
@@ -56,6 +60,7 @@ class EmailUtil
 
             if ($mail != null)
             {
+                $mail->setFrom('joinapj@gmail.com', 'A Purposeful Journey');
                 $mail->ClearAddresses();
                 $mail->addAddress('joinapj@gmail.com' , 'A Purposeful Journey');
                 $mail->Subject = $contactFormData->subjectCategory;
@@ -70,6 +75,7 @@ class EmailUtil
                 $mailBody = str_replace("{subjectOthDesc}", $contactFormData->subjectOtherDesc, $mailBody);
                 $mailBody = str_replace("{userMessage}", $contactFormData->userMessage, $mailBody);
                 $mailBody = str_replace("{ipAddress}", $contactFormData->userIPAddr, $mailBody);
+                $mailBody = str_replace("{userAgent}", $contactFormData->userAgentDetails, $mailBody);
 
                 $mail->msgHTML($mailBody);
 
@@ -85,7 +91,6 @@ class EmailUtil
         }
         catch (Exception $e) 
         {
-            echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
             log_message('error',"Message could not be sent. Mailer Error: {$mail->ErrorInfo}");
         }
     }
@@ -96,6 +101,8 @@ class EmailUtil
 
         $this->sendConfirmationEmail($mail, $student);
         $this->sendRegEmailToAdmin($mail, $student);
+
+        return true;
     }
 
     private function sendConfirmationEmail($mail, $student)
@@ -106,6 +113,9 @@ class EmailUtil
 
             if ($mail != null)
             {
+                $mail->setFrom('apj2learn@gmail.com', 'A Purposeful Journey');
+                $mail->addReplyTo('apj2learn@gmail.com', 'A Purposeful Journey');
+
                 $mail->ClearAddresses();
                 $mail->addAddress($student->emailAddress , $student->firstName);
                 $mail->Subject = 'Free online weekend class registration - A Purposeful Journey';
@@ -126,7 +136,6 @@ class EmailUtil
         }
         catch (Exception $e) 
         {
-            echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
             log_message('error',"Message could not be sent. Mailer Error: {$mail->ErrorInfo}");
         }
     }
@@ -139,6 +148,7 @@ class EmailUtil
 
             if ($mail != null)
             {
+                $mail->setFrom('apj2learn@gmail.com', 'A Purposeful Journey');
                 $mail->ClearAddresses();
                 $mail->addAddress('apj2learn@gmail.com' , 'A Purposeful Journey');
                 $mail->Subject = 'New registration for free weekend online class.';
@@ -155,7 +165,11 @@ class EmailUtil
                 $mailBody = str_replace("{institution}", $student->institution, $mailBody);
                 $mailBody = str_replace("{weekendAvailabiity}", $student->weekendAvailability, $mailBody);
                 $mailBody = str_replace("{interestedSubject}", $student->interestedSubject, $mailBody);
+                $mailBody = str_replace("{infoDec}", $student->infoDeclaration, $mailBody);
+                $mailBody = str_replace("{privacyDec}", $student->privacyDeclaration, $mailBody);
+                $mailBody = str_replace("{referalSource}", $student->referalSource, $mailBody);
                 $mailBody = str_replace("{ipAddress}", $student->userIPAddr, $mailBody);
+                $mailBody = str_replace("{userAgent}", $student->userAgentDetails, $mailBody);
 
                 $mail->msgHTML($mailBody);
 
@@ -171,7 +185,6 @@ class EmailUtil
         }
         catch (Exception $e) 
         {
-            echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
             log_message('error',"Message could not be sent. Mailer Error: {$mail->ErrorInfo}");
         }
     }
@@ -182,9 +195,9 @@ class EmailUtil
         try {
             //Server settings
             $mail->isSMTP();  
+            $mail->SMTPDebug = 0;
             $mail->SMTPKeepAlive = true;   
             $mail->Mailer = 'smtp';                                     // don't change the quotes!
-            $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
             $mail->SMTPSecure = "tls";
             $mail->SMTPAutoTLS = false;
             $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
@@ -196,17 +209,15 @@ class EmailUtil
                 )
             );
 
-            $mail->Username   = 'joinapj@gmail.com';                     // SMTP username
-            $mail->Password   = 'Ajourney@321';                     // SMTP password
-            $mail->setFrom('joinapj@gmail.com', 'A Purposeful Journey');
-
+            $mail->Username   = 'makeapurposefuljourney@gmail.com';                     // SMTP username
+            $mail->Password   = 'Hackme@123';                          // SMTP password
+            
             $mail->Host = 'smtp.gmail.com';
             $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
             // Content
             $mail->isHTML(true);
         } catch (Exception $e) {
-            echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
             log_message('error',"Message could not be sent. Mailer Error: {$mail->ErrorInfo}");
         }
         return $mail;

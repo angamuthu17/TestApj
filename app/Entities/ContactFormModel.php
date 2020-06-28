@@ -21,6 +21,8 @@ class ContactFormModel extends Entity
 
     public $userIPAddr = '';
 
+    public $userAgentDetails = '';
+
     /**
 	 * Return string format of object.
 	 *

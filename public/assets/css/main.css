@@ -232,7 +232,7 @@ footer a:hover
   width: 25px;
 }
 
-.card-header
+.card-header, .modal-header
 {
   background-color: #4473c5;
   color: white;
@@ -242,7 +242,7 @@ footer a:hover
 flip card
 */
 .card-flip {
-  min-height: 300px;
+  min-height: 250px;
 }
 
 .card-flip > div {
@@ -273,6 +273,16 @@ flip card
   transform: rotateY(0deg);
 }
 
+.card-front > .card-body
+{
+  color: #f1f1f1;
+}
+
+.bg-apj-light
+{
+  background-color: #4473c5;
+  /* background-image: linear-gradient(141deg, #93b1e5 0%, #6085c4 51%, #4473c5 75%); */
+}
 
 /* News ticker */
 .news-border
@@ -318,4 +328,23 @@ flip card
 .detail-box
 {
   border-radius: 0px !important;
+}
+
+.trainer-card-img
+{
+  border-radius: 50%;
+  border: 2px solid #696969;
+  background-color: #fff;
+}
+
+.bg-apj-light-new
+{
+  background: #b3d9ff;
+}
+
+
+.intro-message{
+  font-size: 1.2em;
+  font-style: italic;
+  text-align: center;
 }

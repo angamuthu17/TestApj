@@ -25,7 +25,15 @@ class Student extends Entity
 
     public $interestedSubject = '';
 
+    public $infoDeclaration = '';
+
+    public $privacyDeclaration = '';
+
+    public $referalSource = '';
+
     public $userIPAddr = '';
+
+    public $userAgentDetails = '';
 
     /**
 	 * Return string format of object.

@@ -31,7 +31,7 @@
                     <span class="float-right"><i class="far fa-plus-square"></i></span>
                     </p>
                 </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#faqList">
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqList">
                     <div class="card-body">
                     Currently, No. We are in the path of getting 12AA and 80G.
                     </div>
@@ -42,13 +42,13 @@
                 <div class="card-header inline-block" id="headingThree">
                     <p class="text-left mb-0" data-toggle="collapse" data-target="#collapseThree" 
                         aria-expanded="false" aria-controls="collapseThree">
-                        Is there dedicated trust bank account?
+                        Is there any minimum amount to be contributed?
                     <span class="float-right"><i class="far fa-plus-square"></i></span>
                     </p>
                 </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#faqList">
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqList">
                     <div class="card-body">
-                    Yes. We have bank account for our trust and members can contribute directly to it. Our account gets audited every year.
+                    No. It depends on everyone's choice and possibilities. You can start with a minimum as low as local theatre movie ticket for an example.
                     </div>
                 </div>
             </div>
@@ -57,13 +57,13 @@
                 <div class="card-header inline-block" id="headingFour">
                     <p class="text-left mb-0" data-toggle="collapse" data-target="#collapseFour" 
                         aria-expanded="false" aria-controls="collapseFour">
-                        Can I find bank details to contribute?
+                        Is one time contribution best or regular monthly contribution ?
                     <span class="float-right"><i class="far fa-plus-square"></i></span>
                     </p>
                 </div>
-                <div id="collapseFour" class="collapse" aria-labelledby="headingOne" data-parent="#faqList">
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqList">
                     <div class="card-body">
-                    Please go to <a href="contact">contact</a> page and reach us with your thoughts and interest along with your email id. We will send you all details.
+                    It is again depending on the individual's comfort level. We encourage monthly regular contributions for 2 main reasons - one is to maintain a continuous connection with us to focus on our updates. Second is to help us to strategize our regular activities. All contribution are counted and much appreciated.
                     </div>
                 </div>
             </div>
@@ -72,13 +72,13 @@
                 <div class="card-header inline-block" id="headingFive">
                     <p class="text-left mb-0" data-toggle="collapse" data-target="#collapseFive" 
                         aria-expanded="false" aria-controls="collapseFive">
-                        How can I contribute?
+                        Can we go public for fund collection?
                     <span class="float-right"><i class="far fa-plus-square"></i></span>
                     </p>
                 </div>
-                <div id="collapseFive" class="collapse" aria-labelledby="headingOne" data-parent="#faqList">
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#faqList">
                     <div class="card-body">
-                    Please refer <a href="joinUs">'Join Us'</a> page. Please <a href="contact">contact</a> us for more thoughts / suggestions.
+                    It is definitely a good option but we haven't got 80G status (tax exemption) yet hence keeping within the closed circle for now. We are not allowed to go for foreign fund raising too. Only sources from India.
                     </div>
                 </div>
             </div>
@@ -87,13 +87,28 @@
                 <div class="card-header inline-block" id="headingSix">
                     <p class="text-left mb-0" data-toggle="collapse" data-target="#collapseSix" 
                         aria-expanded="false" aria-controls="collapseSix">
-                        What do I get if I regularly contribute?
+                        Can we ask for funds from other known circles other than A Purposeful Journey group?
                     <span class="float-right"><i class="far fa-plus-square"></i></span>
                     </p>
                 </div>
                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#faqList">
                     <div class="card-body">
-                    Thanks for your willingness. We will give you regular update on our activities and upcoming support program details. You will get access to member page to download various reports and forms.
+                    We should be good as long as any contributors are willing to understand our activities and they know that there are no 80G and foreign fund restrictions. You are always welcome to join our upcoming meetings to know more.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-2 border-bottom">
+                <div class="card-header inline-block" id="headingSeven">
+                    <p class="text-left mb-0" data-toggle="collapse" data-target="#collapseSeven" 
+                        aria-expanded="false" aria-controls="collapseSeven">
+                        Is there dedicated trust bank account?
+                    <span class="float-right"><i class="far fa-plus-square"></i></span>
+                    </p>
+                </div>
+                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#faqList">
+                    <div class="card-body">
+                    Yes. We have bank account for our trust and members can contribute directly to it. Our account gets audited every year.
                     </div>
                 </div>
             </div>
@@ -102,13 +117,13 @@
                 <div class="card-header inline-block" id="headingEight">
                     <p class="text-left mb-0" data-toggle="collapse" data-target="#collapseEight" 
                         aria-expanded="false" aria-controls="collapseEight">
-                        What are our different activities?
+                        Can I find bank details to contribute?
                     <span class="float-right"><i class="far fa-plus-square"></i></span>
                     </p>
                 </div>
                 <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#faqList">
                     <div class="card-body">
-                    Please refer <a href="initiatives">'Our Initiatives'</a> page.
+                    Please go to <a href="contact">contact</a> page and reach us with your thoughts and interest along with your email id. We will send you all details.
                     </div>
                 </div>
             </div>
@@ -117,11 +132,56 @@
                 <div class="card-header inline-block" id="headingNine">
                     <p class="text-left mb-0" data-toggle="collapse" data-target="#collapseNine" 
                         aria-expanded="false" aria-controls="collapseNine">
-                        Where I can see what was achieved so far?
+                        How can I contribute?
                     <span class="float-right"><i class="far fa-plus-square"></i></span>
                     </p>
                 </div>
                 <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#faqList">
+                    <div class="card-body">
+                    Please refer <a href="joinUs">'Join Us'</a> page. Please <a href="contact">contact</a> us for more thoughts / suggestions.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-2 border-bottom">
+                <div class="card-header inline-block" id="headingTen">
+                    <p class="text-left mb-0" data-toggle="collapse" data-target="#collapseTen" 
+                        aria-expanded="false" aria-controls="collapseTen">
+                        What do I get if I regularly contribute?
+                    <span class="float-right"><i class="far fa-plus-square"></i></span>
+                    </p>
+                </div>
+                <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#faqList">
+                    <div class="card-body">
+                    Thanks for your willingness. We will give you regular update on our activities and upcoming support program details. You will get access to member page to download various reports and forms.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-2 border-bottom">
+                <div class="card-header inline-block" id="headingEleven">
+                    <p class="text-left mb-0" data-toggle="collapse" data-target="#collapseEleven" 
+                        aria-expanded="false" aria-controls="collapseEleven">
+                        What are our different activities?
+                    <span class="float-right"><i class="far fa-plus-square"></i></span>
+                    </p>
+                </div>
+                <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#faqList">
+                    <div class="card-body">
+                    Please refer <a href="initiatives">'Our Initiatives'</a> page.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-2 border-bottom">
+                <div class="card-header inline-block" id="headingTwelve">
+                    <p class="text-left mb-0" data-toggle="collapse" data-target="#collapseTwelve" 
+                        aria-expanded="false" aria-controls="collapseTwelve">
+                        Where I can see what was achieved so far?
+                    <span class="float-right"><i class="far fa-plus-square"></i></span>
+                    </p>
+                </div>
+                <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#faqList">
                     <div class="card-body">
                     Please refer <a href="initiatives">'Our Initiatives'</a> and <a href="journey#milestones">'Our Milestones'</a> page.
                     </div>

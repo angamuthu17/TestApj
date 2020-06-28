@@ -12,6 +12,31 @@ class Pages extends Controller
 
     public function registerFefa()
     {
+        $captcha_token = $this->request->getPostGet('token');
+        log_message('debug','Fefa reg captcha token: ' . $captcha_token);
+        
+        if (!$captcha_token)
+        {
+            $data = [
+                    'success' => false,
+                    'text' => "Invalid captcha during submit."
+            ];
+            return $this->response->setStatusCode(400)->setJSON($data);
+        }
+        else
+        {
+            $result = $this->verifyCaptcha($captcha_token);
+
+            if (!$result)
+            {
+                $data = [
+                    'success' => false,
+                    'text' => "Invalid captcha during submit."
+                ];
+                return $this->response->setStatusCode(400)->setJSON($data);
+            }
+        }
+
         $student = new \App\Entities\Student();
 
         $student->firstName = $this->request->getPostGet('studentFirstName');
@@ -24,20 +49,11 @@ class Pages extends Controller
         $student->institution = $this->request->getPostGet('studentInstitutionName');
         $student->weekendAvailability = $this->request->getPostGet('studentAvailability');
         $student->interestedSubject = $this->request->getPostGet('studentsInterest');
-        
-        if (!empty($_SERVER['HTTP_CLIENT_IP'])) 
-        {   //check ip from share internet
-            $ip = $_SERVER['HTTP_CLIENT_IP'];
-        } 
-        elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) 
-        {   //to check ip is pass from proxy
-            $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
-        } 
-        else 
-        {
-            $ip = $_SERVER['REMOTE_ADDR'];
-        }
-        $student->userIPAddr = $ip;
+        $student->infoDeclaration = $this->request->getPostGet('declaration');
+        $student->privacyDeclaration = $this->request->getPostGet('privacyNote');
+        $student->referalSource = $this->request->getPostGet('referalSource');
+        $student->userAgentDetails =  $this->request->getUserAgent()->getAgentString();
+        $student->userIPAddr = $this->request->getIPAddress();
 
         log_message('debug','Student detail: ' . $student->toString());
 
@@ -45,15 +61,45 @@ class Pages extends Controller
 
         $emailUtil->sendFefaRegisterationEmail($student);
 
-        return true;
+        $data = [
+            'success' => true,
+            'text' => "Registeration received."
+        ];
+        $this->response->setBody("");
+        return $this->response->setStatusCode(200)->setJSON($data);
     }
 
     public function processFeedback()
     {
+        $captcha_token = $this->request->getPostGet('token');
+        log_message('debug','Contact Us captcha token: ' . $captcha_token);
+        
+        if (!$captcha_token)
+        {
+            $data = [
+                    'success' => false,
+                    'text' => "Invalid captcha during submit."
+            ];
+            return $this->response->setStatusCode(400)->setJSON($data);
+        }
+        else
+        {
+            $result = $this->verifyCaptcha($captcha_token);
+
+            if (!$result)
+            {
+                $data = [
+                    'success' => false,
+                    'text' => "Invalid captcha during submit."
+                ];
+                return $this->response->setStatusCode(400)->setJSON($data);
+            }
+        }
+
         static $CONTACT_SUBJECT = [
             "onlineClass" => "Feedback / suggestion regarding free online classes",
             "joining" => "Feedback / suggestion regarding joining a initiative",
-            "contribution" => "Feedback / suggestion regarding contributing",
+            "contribution" => "Feedback / suggestion regarding contribution",
             "other" => "Feedback / suggestion - Others",
         ];
 
@@ -66,28 +112,21 @@ class Pages extends Controller
         $contactForm->subjectCategory = $CONTACT_SUBJECT[$this->request->getPostGet('subject')];
         $contactForm->subjectOtherDesc = $this->request->getPostGet('subjectOtherDesc');
         $contactForm->userMessage = $this->request->getPostGet('userMessage');
-        
-        if (!empty($_SERVER['HTTP_CLIENT_IP'])) 
-        {   //check ip from share internet
-            $ip = $_SERVER['HTTP_CLIENT_IP'];
-        } 
-        elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) 
-        {   //to check ip is pass from proxy
-            $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
-        } 
-        else 
-        {
-            $ip = $_SERVER['REMOTE_ADDR'];
-        }
-        $contactForm->userIPAddr = $ip;
+        $contactForm->userAgentDetails =  $this->request->getUserAgent()->getAgentString();
+        $contactForm->userIPAddr = $this->request->getIPAddress();
 
         log_message('debug','Contact form: ' . $contactForm->toString());
 
         $emailUtil = new \App\Util\EmailUtil();
 
-        $emailUtil->sendContactMail($contactForm);
+        $emailResp = $emailUtil->sendContactMail($contactForm);
 
-        return true;
+        $data = [
+            'success' => true,
+            'text' => "Contact form received."
+        ];
+        $this->response->setBody("");
+        return $this->response->setStatusCode(200)->setJSON($data);
     }
 
     public function load($pagename)
@@ -110,6 +149,32 @@ class Pages extends Controller
         echo view($page, $page_data);
         echo view('templates/footer');
         
+    }
+
+
+    private function verifyCaptcha($token)
+    {
+        $captcha_secret_key = "6Lcl5akZAAAAAHVzKaIlXdwURATDU1XdYlnIeF3h";
+        
+        $data = array('secret' => $captcha_secret_key, 'response' => $token);
+
+        $verify = curl_init();
+        curl_setopt($verify, CURLOPT_URL, "https://www.google.com/recaptcha/api/siteverify");
+        curl_setopt($verify, CURLOPT_POST, true);
+        curl_setopt($verify, CURLOPT_POSTFIELDS, http_build_query($data));
+        curl_setopt($verify, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($verify, CURLOPT_RETURNTRANSFER, true);
+        $response = curl_exec($verify);
+   
+        $status = json_decode($response, true);
+        log_message('debug','Google verify response: ' . $response);
+         
+        if($status['success'] && $status['score'] > 0.5) 
+        {
+          return true;
+        } 
+
+        return false;
     }
 
 }

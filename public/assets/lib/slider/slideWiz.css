@@ -55,27 +55,6 @@
     margin-left: -23px
 }
 
-.fade {
-    opacity: 1.0;
-!important;
-    display: block;
-!important;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
-}
-
-.fade img {
-    max-width: none;
-!important;
-    width: 100%;
-!important;
-    height: 100%;
-!important;
-    object-fit: cover;
-}
-
 .box3D {
     opacity: 1.0;
 !important;
@@ -97,28 +76,6 @@
     position: relative;
 }
 
-.glide {
-    opacity: 1.0;
-!important;
-    display: block;
-!important;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    transition: all 0.6s;
-    overflow: hidden;
-}
-
-.glide img {
-    max-width: none;
-!important;
-    width: 100%;
-!important;
-    height: 100%;
-!important;
-    object-fit: cover;
-}
-
 .slice {
     opacity: 1.0;
 !important;
@@ -137,58 +94,6 @@
     width: 100%;
 !important;
     height: 100%;
-!important;
-    float: left;
-    object-fit: cover;
-}
-
-.flip {
-    opacity: 1.0;
-!important;
-    display: block;
-!important;
-    height: 100%;
-    float: left;
-    position: relative;
-    overflow: hidden;
-}
-
-.flipper {
-    transition: all 0.6s;
-    transform: rotateY(360deg);
-    -webkit-transform: rotateY(360deg);
-    -ms-transform: rotateY(360deg);
-    transform-style: preserve-3d;
-}
-
-.flip img {
-    max-width: none;
-!important;
-    width: 100%;
-!important;
-    height: 100%;
-!important;
-    float: left;
-    object-fit: cover;
-}
-
-.pixel {
-    opacity: 1.0;
-!important;
-    display: block;
-!important;
-    height: 100%;
-    float: left;
-    position: relative;
-    overflow: hidden;
-}
-
-.pixel img {
-    max-width: none;
-!important;
-    width: 100%;
-!important;
-    height: auto;
 !important;
     float: left;
     object-fit: cover;

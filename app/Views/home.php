@@ -30,6 +30,15 @@
     </div>
   </marquee>
 
+  <hr class="featurette-divider">
+
+    <p class="text-center intro-message">
+        A Purposeful Journey is a brainchild of group of friends, who came up with thought of saving a small amount every month and give it back to society on need basis during summer 2015. <a href="journey">Read more</a>.
+    </p>
+
+  <hr class="featurette-divider">
+
+
   <div class="row">
       <div class="col">
       <div class="jumbotron jumbotron-fluid text-border-big">
@@ -132,47 +141,27 @@
 
     <hr class="featurette-divider">
 
-    <p class="display-4 text-center mb-4">#FreeEducation</p>
+    <p class="display-4 text-center mb-4">#FreeTraining</p>
     
-    <div class="row">
-        <div class="col-sm-2"></div>
+    <div class="row card-row">
           <div class="col-sm-4 mt-2">
             <div class="card card-flip h-100">
-                <div class="card-front text-white bg-dark">
+                <div class="card-front text-center bg-apj-light">
                     <div class="card-body">
-                        <h3 class="card-title text-center">Python</h3>
-                        <span>
-                            <img src="assets/images/icons/python.png" alt="Python" width="150px" height="150px" class="mx-auto d-block">
-                        </span>
-                        <h5 class="card-title text-center mt-1">Ms. Kiruthika Sivaraman</h5>
+                        <img src="assets/images/icons/python.png" alt="Python" width="100px" height="100px" class="mx-auto d-block trainer-card-img">
+                        <br/>
+                        <h5 class="card-title mt-2 mb-0">Basic Python</h5>
+                        <p class="text-center mb-0">By</p>
+                        <h5 class="card-title text-center mt-0">Mrs. Kiruthika Sivaraman</h5>
                     </div>
                 </div>
                 <div class="card-back bg-white">
                     <div class="card-body">
-                        <table class="table small">
-                            <tbody>
-                                <tr>
-                                    <th scope="row">Name</th>
-                                    <td>Ms. Kiruthika Sivaraman</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Education</th>
-                                    <td>Master in Computer Science</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Years of experience</th>
-                                    <td>10 +</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Field of experience</th>
-                                    <td>Computer Science</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Areas of Interest</th>
-                                    <td>Teaching, Arts & Craft, Travelling</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <h5 class="card-title text-center">Mrs. Kiruthika Sivaraman</h5>
+                        <br/> 
+                        <p class="text-justify">Has completed <b>Master in Computer Science</b> and have <b>10+ years</b> experience in IT industry.
+                        <a class="card-link" href="#" data-toggle="modal" data-target="#profileModal" data-trainer="kiruthika">Read more.</a></p> 
+                        <br/> 
                         <div class="text-center"><a href="fefa" class="btn btn-outline-info btn-sm">Register</a></div>
                     </div>
                 </div>
@@ -180,48 +169,55 @@
         </div>
         <div class="col-sm-4 mt-2">
             <div class="card card-flip h-100">
-                <div class="card-front text-white bg-dark">
+                <div class="card-front bg-apj-light">
                     <div class="card-body">
-                        <h3 class="card-title text-center">Basic English</h3>
-                        <img src="assets/images/icons/english.jpg" alt="Python" width="200px" height="150px" class="mx-auto d-block">
-                        <h5 class="card-title text-center mt-1">Mr. Angamuthu Natarajan</h5>
+                        <img src="assets/images/icons/english.jpg" alt="English" width="100px" height="100px" class="mx-auto d-block trainer-card-img">
+                        <br/>
+                        <h5 class="card-title text-center mt-2 mb-0">Basic English</h5>
+                        <p class="text-center mb-0">By</p>
+                        <h5 class="card-title text-center mt-0">Mr. Angamuthu Natarajan</h5>
                     </div>
                 </div>
                 <div class="card-back bg-white">
                     <div class="card-body">
 
-                        <table class="table small">
-                            <tbody>
-                                <tr>
-                                    <th scope="row">Name</th>
-                                    <td>Mr. Angamuthu Natarajan</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Education</th>
-                                    <td>Bachelor of Engineering</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Years of experience</th>
-                                    <td>11 +</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Fields of experience</th>
-                                    <td>Training, Administration and IT</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Additional certification</th>
-                                    <td>ITIL, PAHM, SAFe SM</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <h5 class="card-title text-center">Mr. Angamuthu Natarajan</h5>
+                        <br/>
+                        <p class="text-justify">Has completed <b>Bachelor of Engineering</b> and have <b>11+ years</b> experience in IT industry.
+                        <a class="card-link" href="#" data-toggle="modal" data-target="#profileModal" data-trainer="angamuthu">Read more.</a></p> 
+                        <br/> 
                         <div class="text-center"><a href="fefa" class="btn btn-outline-info btn-sm">Register</a></div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-sm-2"></div>
-    </div>
 
+        <div class="col-sm-4 mt-2">
+            <div class="card card-flip h-100">
+                <div class="card-front bg-apj-light">
+                    <div class="card-body">
+                        <img src="assets/images/icons/english.jpg" alt="Python" width="100px" height="100px" class="mx-auto d-block trainer-card-img">
+                        <br/>
+                        <h5 class="card-title text-center mt-2 mb-0">Basic English & Python</h5>
+                        <p class="text-center mb-0">By</p>
+                        <h5 class="card-title text-center mb-0 mt-0">Mr. Bharath Ram Manoharan</h5>
+                        <p class="text-center small">( Guest )</p>
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body">
+
+                        <h5 class="card-title text-center">Mr. Bharath Ram Manoharan</h5>
+                        <br/>
+                        <p class="text-justify">Has completed <b>Master in Computer Science</b> and have <b>12+ years</b> experience in IT industry.
+                        <a class="card-link" href="#" data-toggle="modal" data-target="#profileModal" data-trainer="bharath">Read more.</a></p> 
+                        <br/> 
+                        <div class="text-center"><a href="fefa" class="btn btn-outline-info btn-sm">Register</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <hr class="featurette-divider">
 
@@ -253,7 +249,7 @@
 
     <div class="row featurette text-center">
       <div class="col-md-6">
-        <h4 class="featurette-heading"> Help in Needs (medical/Education)</h4>
+        <h4 class="featurette-heading"> Help in Need (Medical/Education)</h4>
         <p class="lead">Helping in Medical Emargency and Supporting children eduction without breaking.</p>
       </div>
       <div class="col-md-6">
@@ -277,4 +273,114 @@
 
   </div><!-- /.container -->
 
+
+    <!-- Modal -->
+    <div class="modal fade" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title" id="exampleModalLabel">Trainer Profile</h6>
+            </div>
+            <div class="modal-body">
+                <h6 class="mb-2 font-weight-bold"><span id="name"></span></h6>
+                <table class="table small mt-3">
+                    <tbody>
+                        <tr>
+                            <th scope="row">Education</th>
+                            <td><span id="edu"></span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Years of experience</th>
+                            <td><span id="exp"></span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Field of experience</th>
+                            <td><span id="field"></span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Areas of Interest</th>
+                            <td><span id="interest"></span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Home City</th>
+                            <td><span id="home"></span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Current City</th>
+                            <td><span id="currentLoc"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-outline-secondary mx-auto" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
 </main>
+
+
+<script>
+
+    var trainer_barath = { "name":"Mr. Bharath Ram Manoharan", 
+                            "edu":"Master in Computer Science", 
+                            "exp":"12 + years", 
+                            "field":"Computer Science", 
+                            "interest":"Teaching, Reading books, Fitness", 
+                            "home":"Chennai, tamil Nadu, India", 
+                            "currentLoc":"California, USA"
+                        };
+    var trainer_angamuthu = {
+                                "name":"Mr. Angamuthu Natarajan", 
+                                "edu":"Bachelor of Engineering", 
+                                "exp":"11 + years", 
+                                "field":"Training, Administration and IT", 
+                                "interest":"Teaching, Organising social activities, Reading books, Swiming, Playing Cricket.", 
+                                "home":"Madurai, Tamil Nadu, India", 
+                                "currentLoc":"Halifax, Novascotia, Canada"
+                            };
+    var trainer_kiruthika = {
+                                "name":"Mrs. Kiruthika Sivaraman", 
+                                "edu":"Master in Computer Science", 
+                                "exp":"10 + years", 
+                                "field": "Computer Science", 
+                                "interest":"Teaching, Art & Craft, Travelling", 
+                                "home":"Chennai, Tamil Nadu, India", 
+                                "currentLoc":"California, USA"
+                            };
+
+    (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+            
+            $('#profileModal').on('show.bs.modal', function (event) {
+                var button = $(event.relatedTarget);
+                var trainerId = button.data('trainer'); 
+
+                let trainerJSON = trainer_barath;
+
+                if (trainerId == 'angamuthu')
+                {
+                    trainerJSON = trainer_angamuthu;
+                }
+                else if(trainerId == 'kiruthika')
+                {
+                    trainerJSON = trainer_kiruthika;
+                }
+                
+                var modal = $(this)
+                $('.modal-body #name').text(trainerJSON.name);
+                $('.modal-body #edu').text(trainerJSON.edu);
+                $('.modal-body #exp').text(trainerJSON.exp);
+                $('.modal-body #field').text(trainerJSON.field);
+                $('.modal-body #interest').text(trainerJSON.interest);
+                $('.modal-body #home').text(trainerJSON.home);
+                $('.modal-body #currentLoc').text(trainerJSON.currentLoc);
+            });
+
+        }, false);
+    })();
+
+</script>

@@ -8,25 +8,20 @@
             <a href="https://instagram.com/joinapj" target="_blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
         </div>
         <div class="col-sm text-center mb-3">
-            <a class="font-weight-bold border-right p-2" href="fefa">#FreeEducation  </a>
-            <a class="font-weight-bold border-right p-2" href="joinUs">  JoinUs  </a>
-            <a class="font-weight-bold p-2" href="contact">  Contact Us</a>
+            <a class="font-weight-bold" href="fefa">#FreeTraining  </a>
         </div>
         <div class="col-sm text-center mb-3">
-            <a href="mailto:joinapj@gmail.com"><i class="fas fa-envelope mr-2"></i >joinapj@gmail.com</a>
+            <a class="font-weight-bold border-right p-2" href="joinUs">  JoinUs  </a>
+            <a class="font-weight-bold border-right p-2" href="contact">  Contact Us</a>
+            <a class="font-weight-bold p-2" href="faq">  FAQ</a>
         </div>
     </div>
     <p class="plain-text text-center">&copy; A Purposeful Journey</p>
 </footer>
 
-<script src="assets/js/jquery-3.5.1.min.js"></script>
 <script src="https://kit.fontawesome.com/49fa31ba9f.js"></script>
 
-<script>
-    window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')
-</script>
-
-<script src="assets/js/bootstrap.bundle.js"></script></body>
+<script src="assets/js/bootstrap.bundle.min.js"></script></body>
 <script src="assets/lib/slider/slideWiz.js"></script>
 
     <script>
