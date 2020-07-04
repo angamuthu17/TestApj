@@ -29,7 +29,7 @@
                 <p class="font-weight-bold"> Thank you for your interest! </p>
                 <p class="card-text" style="text-align: justify;">There will be FREE online classes for every Saturday or Sunday based on Volunteer's availability. Students should be flexible on date and time. Python class batch starting from 29th May 2020, Saturday and one batch may go upto 12 weeks. English learning session is a practice method/way of learning. It will be conducted regularly either Saturday or Sunday. Students should register and they will get class details via email before Friday.</p>
 
-                <p class="card-text" style="text-align: justify;">Any specific question or feedback related to online classes, students registration or volunteers registration to teach can be sent to <a href="mailto:apj2learn@gmail.com">apj2learn@gmail.com</a>. For any other general questions or feedback, please visit <a href="contact">Contact Us</a> page.</p>
+                <p class="card-text" style="text-align: justify;">Any specific questions or feedback related to online classes / initiatives / volunteers opportunity, please reach out via <a href="contact">Contact Us</a> page.</p>
 
                 <p class="font-weight-bold" style="text-align: justify;"> NOTE: Currently the classes will be conducted by explaining details in Tamil during interaction. </p>
                 

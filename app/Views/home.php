@@ -22,7 +22,7 @@
   <marquee class="container m-0" onmouseover="this.stop();" onmouseout="this.start();" scrollamount="8">
     <div class="apj-primary font-weight-bold" style="font-size: 1.2em;">
       <p class="d-inline-block mr-4 mb-0">Welcome to A Purposeful Journey !</p>
-      <p class="d-inline-block mr-4 ml-4 mb-0">Thank you for all our continues contributions and support!</p>
+      <p class="d-inline-block mr-4 ml-4 mb-0">Thank you all for your continues contributions and support!</p>
       <p class="d-inline-block mr-4 ml-4 mb-0">We pray for everyone health during Covid-19 pandemic!</p>
       <p class="d-inline-block ml-4 mb-0">Stay safe and healthy !</p>
       <p class="d-inline-block ml-4 mb-0">We support unity in diversity!</p>
@@ -64,11 +64,14 @@
             
             <marquee height="100%" width="100%" behavior="scroll" direction="up" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
               <ul class="list-unstyled">
+                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> July-2020 contribution to Sellur, Madurai old age home has been sent. </li>
+                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Student motivational class is being organised for students awaiting 12th result in July, 2020. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> We have taken small part of contribution fund towards medical expenses of a baby born with Ventricular Septal Defect (VSD) @ a hospital in Chennai for the duration of 7 days in June 2020. </li>
-                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> June-2020 contribution to sellur, Madurai old age home has been sent. </li>
-                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Additional financial support has been provided to Sellur, Madurai old age home. </li>
+                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Additional financial support has been provided to Sellur, Madurai old age home since April 2020. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Evening student's education centre in Madurai is temporarily closed due to COVID-19. </li>
-                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Medical support for kidney transplantation patient is on hold </li>
+                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Women wellness program initiative is being planned.</li>
+                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Evening student's education centre in Madurai is temporarily closed due to COVID-19. </li>
+                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Medical support for kidney transplantation patient is under review. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Covid-19 help: Supported 30 families with basic food material supplies in April 2020. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Python and Basic English online weekend classes has commenced from May, 2020. </li>
               </ul>
@@ -229,7 +232,7 @@
         <p class="lead">Independence day celebration with school children.</p>
       </div>
       <div class="col-md-6">
-        <img src="assets/images/pic6.jpeg" alt="Independence day" width="100%" height="100%" class="border border-dark">
+        <img src="assets/images/pic6.jpeg" alt="Independence day" width="350px" height="300px" class="border border-dark">
       </div>
     </div>
 
@@ -241,7 +244,7 @@
         <p class="lead">Our Volunteer's teach our children every saturday.</p>
       </div>
       <div class="col-md-6">
-        <img src="assets/images/pic3.jpeg" alt="Independence day" width="100%" height="100%" class="border border-dark">
+        <img src="assets/images/pic3.jpeg" alt="Independence day" width="350px" height="300px" class="border border-dark">
       </div>
     </div>
 
@@ -253,7 +256,7 @@
         <p class="lead">Helping in Medical Emargency and Supporting children eduction without breaking.</p>
       </div>
       <div class="col-md-6">
-        <img src="assets/images/pic8.jpeg" alt="Independence day" width="100%" height="100%" class="border border-dark">
+        <img src="assets/images/pic8.jpeg" alt="Independence day" width="350px" height="300px" class="border border-dark">
       </div>
     </div>
 
@@ -265,7 +268,7 @@
         <p class="lead">Our member is distributing food to elders in the old age home.</p>
       </div>
       <div class="col-md-6">
-        <img src="assets/images/pic12.jpeg" alt="Independence day" width="100%" height="100%" class="border border-dark">
+        <img src="assets/images/pic12.jpeg" alt="Independence day" width="350px" height="300px" class="border border-dark">
       </div>
     </div>
 

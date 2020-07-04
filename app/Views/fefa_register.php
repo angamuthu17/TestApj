@@ -203,57 +203,8 @@
                 By accessing the website at http://www.joinapj.com, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.
                 </p>
                 <h6>Usage of Personal Information</h6>
-                <p>
-                    <ul class="small">
-                        <li>Nulla volutpat aliquam velit
-                            <ul>
-                                <li>Phasellus iaculis neque</li>
-                                <li>Purus sodales ultricies</li>
-                                <li>Vestibulum laoreet porttitor sem</li>
-                                <li>Ac tristique libero volutpat at</li>
-                            </ul>
-                        </li>
-                        <li>Nulla volutpat aliquam velit
-                            <ul>
-                                <li>Phasellus iaculis neque</li>
-                                <li>Purus sodales ultricies</li>
-                                <li>Vestibulum laoreet porttitor sem</li>
-                                <li>Ac tristique libero volutpat at</li>
-                            </ul>
-                        </li>
-                        <li>Nulla volutpat aliquam velit
-                            <ul>
-                                <li>Phasellus iaculis neque</li>
-                                <li>Purus sodales ultricies</li>
-                                <li>Vestibulum laoreet porttitor sem</li>
-                                <li>Ac tristique libero volutpat at</li>
-                            </ul>
-                        </li>
-                        <li>Nulla volutpat aliquam velit
-                            <ul>
-                                <li>Phasellus iaculis neque</li>
-                                <li>Purus sodales ultricies</li>
-                                <li>Vestibulum laoreet porttitor sem</li>
-                                <li>Ac tristique libero volutpat at</li>
-                            </ul>
-                        </li>
-                        <li>Nulla volutpat aliquam velit
-                            <ul>
-                                <li>Phasellus iaculis neque</li>
-                                <li>Purus sodales ultricies</li>
-                                <li>Vestibulum laoreet porttitor sem</li>
-                                <li>Ac tristique libero volutpat at</li>
-                            </ul>
-                        </li>
-                        <li>Nulla volutpat aliquam velit
-                            <ul>
-                                <li>Phasellus iaculis neque</li>
-                                <li>Purus sodales ultricies</li>
-                                <li>Vestibulum laoreet porttitor sem</li>
-                                <li>Ac tristique libero volutpat at</li>
-                            </ul>
-                        </li>
-                    </ul>
+                <p class="text-justify small">
+                Any data collected by A Purposeful Journey will not be sold or shared to anyother third party. All information's are stored only for contacting you and to provide you update regularly on our programs.
                 </p>
             </div>
             <div class="modal-footer">
