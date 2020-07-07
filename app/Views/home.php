@@ -22,7 +22,7 @@
   <marquee class="container m-0" onmouseover="this.stop();" onmouseout="this.start();" scrollamount="8">
     <div class="apj-primary font-weight-bold" style="font-size: 1.2em;">
       <p class="d-inline-block mr-4 mb-0">Welcome to A Purposeful Journey !</p>
-      <p class="d-inline-block mr-4 ml-4 mb-0">Thank you all for your continues contributions and support!</p>
+      <p class="d-inline-block mr-4 ml-4 mb-0">Thank you all for your continuous contributions and support!</p>
       <p class="d-inline-block mr-4 ml-4 mb-0">We pray for everyone health during Covid-19 pandemic!</p>
       <p class="d-inline-block ml-4 mb-0">Stay safe and healthy !</p>
       <p class="d-inline-block ml-4 mb-0">We support unity in diversity!</p>
@@ -66,9 +66,8 @@
               <ul class="list-unstyled">
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> July-2020 contribution to Sellur, Madurai old age home has been sent. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Student motivational class is being organised for students awaiting 12th result in July, 2020. </li>
-                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> We have taken small part of contribution fund towards medical expenses of a baby born with Ventricular Septal Defect (VSD) @ a hospital in Chennai for the duration of 7 days in June 2020. </li>
+                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> We have contributed helping fund in June 2020 towards medical expenses of a 7 days old baby who was born with Ventricular Septal Defect (VSD) at a private hospital in Chennai, Tamil Nadu.</li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Additional financial support has been provided to Sellur, Madurai old age home since April 2020. </li>
-                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Evening student's education centre in Madurai is temporarily closed due to COVID-19. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Women wellness program initiative is being planned.</li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Evening student's education centre in Madurai is temporarily closed due to COVID-19. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Medical support for kidney transplantation patient is under review. </li>

@@ -17,7 +17,7 @@
                     </p>
                 </div>
                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqList">
-                    <div class="card-body">
+                    <div class="card-body text-justify">
                     It was in operation unofficially as support to social activities since 2015 but officially registered as charitable trust in 2017. Please refer <a href='journey'>Our Journey</a> page.
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                     </p>
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqList">
-                    <div class="card-body">
+                    <div class="card-body text-justify">
                     Currently, No. We are in the path of getting 12AA and 80G.
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                     </p>
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqList">
-                    <div class="card-body">
+                    <div class="card-body text-justify">
                     No. It depends on everyone's choice and possibilities. You can start with a minimum as low as local theatre movie ticket for an example.
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                     </p>
                 </div>
                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqList">
-                    <div class="card-body">
+                    <div class="card-body text-justify">
                     It is again depending on the individual's comfort level. We encourage monthly regular contributions for 2 main reasons - one is to maintain a continuous connection with us to focus on our updates. Second is to help us to strategize our regular activities. All contribution are counted and much appreciated.
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                     </p>
                 </div>
                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#faqList">
-                    <div class="card-body">
+                    <div class="card-body text-justify">
                     It is definitely a good option but we haven't got 80G status (tax exemption) yet hence keeping within the closed circle for now. We are not allowed to go for foreign fund raising too. Only sources from India.
                     </div>
                 </div>
@@ -92,7 +92,7 @@
                     </p>
                 </div>
                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#faqList">
-                    <div class="card-body">
+                    <div class="card-body text-justify">
                     We should be good as long as any contributors are willing to understand our activities and they know that there are no 80G and foreign fund restrictions. You are always welcome to join our upcoming meetings to know more.
                     </div>
                 </div>
@@ -107,7 +107,7 @@
                     </p>
                 </div>
                 <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#faqList">
-                    <div class="card-body">
+                    <div class="card-body text-justify">
                     Yes. We have bank account for our trust and members can contribute directly to it. Our account gets audited every year.
                     </div>
                 </div>
@@ -122,7 +122,7 @@
                     </p>
                 </div>
                 <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#faqList">
-                    <div class="card-body">
+                    <div class="card-body text-justify">
                     Please go to <a href="contact">contact</a> page and reach us with your thoughts and interest along with your email id. We will send you all details.
                     </div>
                 </div>
@@ -137,7 +137,7 @@
                     </p>
                 </div>
                 <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#faqList">
-                    <div class="card-body">
+                    <div class="card-body text-justify">
                     Please refer <a href="joinUs">'Join Us'</a> page. Please <a href="contact">contact</a> us for more thoughts / suggestions.
                     </div>
                 </div>
@@ -152,7 +152,7 @@
                     </p>
                 </div>
                 <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#faqList">
-                    <div class="card-body">
+                    <div class="card-body text-justify">
                     Thanks for your willingness. We will give you regular update on our activities and upcoming support program details. You will get access to member page to download various reports and forms.
                     </div>
                 </div>
@@ -167,7 +167,7 @@
                     </p>
                 </div>
                 <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#faqList">
-                    <div class="card-body">
+                    <div class="card-body text-justify">
                     Please refer <a href="initiatives">'Our Initiatives'</a> page.
                     </div>
                 </div>
@@ -182,7 +182,7 @@
                     </p>
                 </div>
                 <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#faqList">
-                    <div class="card-body">
+                    <div class="card-body text-justify">
                     Please refer <a href="initiatives">'Our Initiatives'</a> and <a href="journey#milestones">'Our Milestones'</a> page.
                     </div>
                 </div>

@@ -145,7 +145,7 @@
                         <div class="col-md-9 mb-3">
 
                             <div class="form-check mt-4">
-                                <input class="form-check-input" type="checkbox" value="" id="declaration" name="declaration" required>
+                                <input class="form-check-input" type="checkbox" value="Y" id="declaration" name="declaration" required>
                                 <label class="form-check-label text-justify" for="declaration">
                                     I hereby declare that all information entered for registeration is complete, true and correct in all aspect.
                                 </label>
@@ -154,7 +154,7 @@
                                 </div>
                             </div>
                             <div class="form-check mt-1">
-                                <input class="form-check-input" type="checkbox" value="" id="privacyNote" name="privacyNote" required>
+                                <input class="form-check-input" type="checkbox" value="Y" id="privacyNote" name="privacyNote" required>
                                 <label class="form-check-label text-justify" for="privacyNote">
                                     I confirm that I have read and agree to A Purposeful journey's <a href="#" data-toggle="modal" data-target="#privacyModal">Privacy Policy &amp; Terms of Service</a>.
                                 </label>

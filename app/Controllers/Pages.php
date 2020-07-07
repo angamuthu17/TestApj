@@ -59,7 +59,7 @@ class Pages extends Controller
 
         $emailUtil = new \App\Util\EmailUtil();
 
-        $emailUtil->sendFefaRegisterationEmail($student);
+        //$emailUtil->sendFefaRegisterationEmail($student);
 
         $data = [
             'success' => true,

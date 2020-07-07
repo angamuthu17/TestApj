@@ -13,7 +13,7 @@
           <li class="mt-2" style="text-align: justify;"><i class="fa fa-leaf fa-lg mr-3 text-dark" aria-hidden="true"></i> A Purposeful Journey is a brainchild of group of friends, who came up with thought of saving a small amount every month and give it back to society on need basis during summer 2015.</li>
           <li class="mt-4" style="text-align: justify;"><i class="fa fa-leaf fa-lg mr-3 text-dark" aria-hidden="true"></i> It has evolved and inspired many of their friends to join and continue contributing for positive social causes.</li>
           <li class="mt-4" style="text-align: justify;"><i class="fa fa-leaf fa-lg mr-3 text-dark" aria-hidden="true"></i> A Purposeful Journey was registered in 2017 as public charitable trust at Madurai, Tamil Nadu, India.</li>
-          <li class="mt-4" style="text-align: justify;"><i class="fa fa-leaf fa-lg mr-3 text-dark" aria-hidden="true"></i> As a trust, it continuous its journey to help the people on need with their supporting activities.</li>
+          <li class="mt-4" style="text-align: justify;"><i class="fa fa-leaf fa-lg mr-3 text-dark" aria-hidden="true"></i> As a trust, it continues its journey to help the people on need with their supporting activities.</li>
           <li class="mt-4" style="text-align: justify;"><i class="fa fa-leaf fa-lg mr-3 text-dark" aria-hidden="true"></i> This trust and all its activities are being managed and operated with volunteer effort. There are no full time employees with this trust and no profit / income. Founder, Trustee's, Trainer's, Technical team and Coordinators are volunteers and they dedicate additional time / effort to support our social activities.</li>
       </ul>
     </div>

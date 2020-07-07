@@ -3,7 +3,7 @@
 
   <div id="whoWeAre" class="jumbotron jumbotron-fluid text-border-big">
       <div class="container">
-          <h3>What we have done</h3>
+          <h3>What we do</h3>
       </div>
   </div>
   
