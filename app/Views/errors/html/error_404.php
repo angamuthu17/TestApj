@@ -76,7 +76,7 @@
 			<?php if (! empty($message) && $message !== '(null)') : ?>
 				<?= esc($message) ?>
 			<?php else : ?>
-				Sorry! Cannot seem to find the page you were looking for.
+				Sorry! Cannot seem to find the page you were looking for. Please <a href="/">Click here</a> to redirect to home page.
 			<?php endif ?>
 		</p>
 	</div>

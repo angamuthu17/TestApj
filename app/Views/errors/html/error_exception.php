@@ -15,7 +15,7 @@
 	</script>
 </head>
 <body onload="init()">
-
+	Please <a href="/">Click here</a> to redirect to home page.
 	<!-- Header -->
 	<div class="header">
 		<div class="container">
