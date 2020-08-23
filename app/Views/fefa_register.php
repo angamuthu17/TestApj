@@ -179,7 +179,7 @@
                             </button>
                         </div>
                         <div class="col-md mb-3">
-                            <button type="button" class="btn btn-outline-secondary w-100" onClick="resetForm();">Reset</button>
+                            <button type="button" class="btn btn-outline-secondary w-100" onClick="resetForm();resetAlerts();">Reset</button>
                         </div>
                     </div>
                     <span class="text-danger small">* Required field</span>
@@ -263,6 +263,7 @@
                     $('html, body').animate({
                         scrollTop: $(".jumbotron").offset().top
                     }, 1000);
+                    resetForm();
                 },
                 error: function (obj) {
                     console.log(obj);
@@ -296,12 +297,16 @@
 
     function resetForm()
     {
-        $('#successAlert').hide();
-        $('#errorAlert').hide();
-        $('#btn-txt-loadSubmit').hide();
         var form = document.getElementsByClassName('needs-validation')[0];
         form.reset();
         form.classList.remove('was-validated');
+    }
+
+    function resetAlerts()
+    {
+        $('#successAlert').hide();
+        $('#errorAlert').hide();
+        $('#btn-txt-loadSubmit').hide();
     }
 
 </script>

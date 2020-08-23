@@ -331,7 +331,7 @@
                             "exp":"12 + years", 
                             "field":"Computer Science", 
                             "interest":"Teaching, Reading books, Fitness", 
-                            "home":"Chennai, tamil Nadu, India", 
+                            "home":"Chennai, Tamil Nadu, India", 
                             "currentLoc":"California, USA"
                         };
     var trainer_angamuthu = {
@@ -339,7 +339,7 @@
                                 "edu":"Bachelor of Engineering", 
                                 "exp":"11 + years", 
                                 "field":"Training, Administration and IT", 
-                                "interest":"Teaching, Organising social activities, Reading books, Swiming, Playing Cricket.", 
+                                "interest":"Teaching, Organising social activities, Reading books, Swimming, Playing Cricket.", 
                                 "home":"Madurai, Tamil Nadu, India", 
                                 "currentLoc":"Halifax, Novascotia, Canada"
                             };
