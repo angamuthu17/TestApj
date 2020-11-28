@@ -65,6 +65,7 @@
             <marquee height="100%" width="100%" behavior="scroll" direction="up" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
               <ul class="list-unstyled">
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> November-2020 contribution to Sellur, Madurai old age home has been sent. </li>
+                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> We have contributed for hospitalization expense of a needy patient in Madurai - November, 2020. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Contributed PU study fee for a Bangalore student in October, 2020. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Student motivational class was conducted for students awaiting 12th result in July, 2020. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> We have contributed helping fund in June 2020 towards medical expenses of a 7 days old baby who was born with Ventricular Septal Defect (VSD) at a private hospital in Chennai, Tamil Nadu.</li>
