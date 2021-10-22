@@ -64,13 +64,12 @@
             
             <marquee height="100%" width="100%" behavior="scroll" direction="up" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
               <ul class="list-unstyled">
-                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> <span id="mon_yr"></span> contribution to Sellur, Madurai old age home has been sent. </li>
+                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> <span id="mon_yr"></span> contribution to Gandhipuram, Madurai old age home has been sent. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Financial support for kidney transplantation patient is provided in January 2021. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> We have contributed for hospitalization expense of a needy patient in Madurai - November, 2020. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Contributed PU study fee for a Bangalore student in October, 2020. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Student motivational class was conducted for students awaiting 12th result in July, 2020. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> We have contributed helping fund in June 2020 towards medical expenses of a 7 days old baby who was born with Ventricular Septal Defect (VSD) at a private hospital in Chennai, Tamil Nadu.</li>
-                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Additional financial support has been provided to Sellur, Madurai old age home since April 2020. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Women wellness program initiative is being planned.</li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Evening student's education centre in Madurai is temporarily closed due to COVID-19. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Covid-19 help: Supported 30 families with basic food material supplies in April 2020. </li>
