@@ -64,7 +64,7 @@
             
             <marquee height="100%" width="100%" behavior="scroll" direction="up" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
               <ul class="list-unstyled">
-                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> <span id="mon_yr"></span> contribution to Sellur, Madurai old age home has been sent. </li>
+                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> <span id="mon_yr"></span> contribution to Gandhipuram, Madurai old age home has been sent. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Financial support for kidney transplantation patient is provided in January 2021. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> We have contributed for hospitalization expense of a needy patient in Madurai - November, 2020. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Contributed PU study fee for a Bangalore student in October, 2020. </li>
