@@ -52,6 +52,16 @@
 
   <hr class="featurette-divider">
 
+    <p class="display-4 text-center mb-4">Our Journey in 2021</p>
+
+    <div class="row featurette text-center">
+      <div class="col-12">
+        <img src="assets/images/apj_2021.jpg" alt="APJ 2021 Summary" width="100%" height="100%" class="border border-dark">
+      </div>
+    </div>
+
+  <hr class="featurette-divider">
+
   <p class="display-4 text-center mb-3">Important Updates</p>
 
   <div class="row featurette text-center">
