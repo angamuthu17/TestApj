@@ -74,7 +74,7 @@
             
             <marquee height="100%" width="100%" behavior="scroll" direction="up" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
               <ul class="list-unstyled">
-                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> <span id="mon_yr"></span> contribution to Gandhipuram, Madurai old age home has been sent. </li>
+                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> <span id="mon_yr"></span> contribution to Gandhipuram, Madurai senior care center has been sent. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Financial support for kidney transplantation patient is provided in January 2021. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> We have contributed for hospitalization expense of a needy patient in Madurai - November, 2020. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Contributed PU study fee for a Bangalore student in October, 2020. </li>
@@ -123,7 +123,7 @@
           <i class="fas fa-mug-hot"></i> Milk2Home
           </div>
           <div class="card-body">
-            <p class="card-text">This initiative to provide morning and evening milk to old age home and children care center from our regular fund. This will ...</p>
+            <p class="card-text">This initiative to provide morning and evening milk to senior care center and children care center from our regular fund. This will ...</p>
             <a href="initiatives" class="btn btn-outline-info btn-sm">Read more</a>
           </div>
         </div>
@@ -275,7 +275,7 @@
     <div class="row featurette text-center mb-4">
       <div class="col-md-6 order-md-1">
         <h4 class="featurette-heading">Sharing and Caring</h4>
-        <p class="lead">Our member is distributing food to elders in the old age home.</p>
+        <p class="lead">Our member is distributing food to elders in the senior care center.</p>
       </div>
       <div class="col-md-6">
         <img src="assets/images/pic12.jpeg" alt="Independence day" width="350px" height="300px" class="border border-dark">

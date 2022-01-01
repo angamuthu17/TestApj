@@ -11,6 +11,8 @@ class EmailUtil
 	{
         $mail = $this->configEmail();
         
+        $mail->Username   = 'contact@joinapj.com';                     // SMTP username
+
         $this->sendThankYouToUser($mail, $contactFormData);
         $this->sendEmailToAdmin($mail, $contactFormData);
 
@@ -25,8 +27,7 @@ class EmailUtil
 
             if ($mail != null)
             {
-                $mail->setFrom('joinapj@gmail.com', 'A Purposeful Journey');
-                $mail->addReplyTo('joinapj@gmail.com', 'A Purposeful Journey');
+                $mail->setFrom('contact@joinapj.com', 'A Purposeful Journey');
 
                 $mail->ClearAddresses();
                 $mail->addAddress($contactFormData->emailAddress , $contactFormData->firstName);
@@ -60,9 +61,9 @@ class EmailUtil
 
             if ($mail != null)
             {
-                $mail->setFrom('joinapj@gmail.com', 'A Purposeful Journey');
+                $mail->setFrom('contact@joinapj.com', 'A Purposeful Journey');
                 $mail->ClearAddresses();
-                $mail->addAddress('joinapj@gmail.com' , 'A Purposeful Journey');
+                $mail->addAddress('contact@joinapj.com' , 'A Purposeful Journey');
                 $mail->Subject = $contactFormData->subjectCategory;
                 
                 $userName = $contactFormData->firstName . ' ' .$contactFormData->lastName;
@@ -99,6 +100,8 @@ class EmailUtil
 	{
         $mail = $this->configEmail();
 
+        $mail->Username   = 'learn@joinapj.com';                     // SMTP username
+
         $this->sendConfirmationEmail($mail, $student);
         $this->sendRegEmailToAdmin($mail, $student);
 
@@ -113,8 +116,7 @@ class EmailUtil
 
             if ($mail != null)
             {
-                $mail->setFrom('apj2learn@gmail.com', 'A Purposeful Journey');
-                $mail->addReplyTo('apj2learn@gmail.com', 'A Purposeful Journey');
+                $mail->setFrom('learn@joinapj.com', 'A Purposeful Journey');
 
                 $mail->ClearAddresses();
                 $mail->addAddress($student->emailAddress , $student->firstName);
@@ -148,9 +150,9 @@ class EmailUtil
 
             if ($mail != null)
             {
-                $mail->setFrom('apj2learn@gmail.com', 'A Purposeful Journey');
+                $mail->setFrom('learn@joinapj.com', 'A Purposeful Journey');
                 $mail->ClearAddresses();
-                $mail->addAddress('apj2learn@gmail.com' , 'A Purposeful Journey');
+                $mail->addAddress('learn@joinapj.com' , 'A Purposeful Journey');
                 $mail->Subject = 'New registration for free weekend online class.';
                 
                 $userName = $student->firstName . ' ' .$student->lastName;
@@ -209,11 +211,11 @@ class EmailUtil
                 )
             );
 
-            $mail->Username   = 'makeapurposefuljourney@gmail.com';                     // SMTP username
-            $mail->Password   = 'Hackme@123';                          // SMTP password
             
-            $mail->Host = 'smtp.gmail.com';
-            $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
+            $mail->Password   = 'Join2apjnow';                          // SMTP password
+            
+            $mail->Host = 'smtp.hostinger.com';
+            $mail->Port       = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
             // Content
             $mail->isHTML(true);

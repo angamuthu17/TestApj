@@ -188,6 +188,51 @@
                 </div>
             </div>
 
+            <div class="card mb-2 border-bottom">
+                <div class="card-header inline-block" id="headingTwelve">
+                    <p class="text-left mb-0" data-toggle="collapse" data-target="#collapseThirteen" 
+                        aria-expanded="false" aria-controls="collapseTwelve">
+                        Is this important to spend on website?
+                    <span class="float-right"><i class="far fa-plus-square"></i></span>
+                    </p>
+                </div>
+                <div id="collapseThirteen" class="collapse" aria-labelledby="headingTwelve" data-parent="#faqList">
+                    <div class="card-body text-justify">
+                    Yes, website is not only for publicity but also it plays very important role in earning trust from external systems like education institution and hospitals when we do documents validation.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-2 border-bottom">
+                <div class="card-header inline-block" id="headingTwelve">
+                    <p class="text-left mb-0" data-toggle="collapse" data-target="#collapseFourteen" 
+                        aria-expanded="false" aria-controls="collapseTwelve">
+                        Is our donation being spent on website instead of helping others?
+                    <span class="float-right"><i class="far fa-plus-square"></i></span>
+                    </p>
+                </div>
+                <div id="collapseFourteen" class="collapse" aria-labelledby="headingTwelve" data-parent="#faqList">
+                    <div class="card-body text-justify">
+                    Website cost and maintenance are being taken care by our volunteers team and also cost is managed by additional donation by few of our team members extra contribution specifically for this activities hence no money is being used from common donation.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-2 border-bottom">
+                <div class="card-header inline-block" id="headingTwelve">
+                    <p class="text-left mb-0" data-toggle="collapse" data-target="#collapseFifteen" 
+                        aria-expanded="false" aria-controls="collapseTwelve">
+                        How can I become volunteer or contribute if I have a technical skill?
+                    <span class="float-right"><i class="far fa-plus-square"></i></span>
+                    </p>
+                </div>
+                <div id="collapseFifteen" class="collapse" aria-labelledby="headingTwelve" data-parent="#faqList">
+                    <div class="card-body text-justify">
+                    Please send us your interest, availability and skills. Our technical team will reach if any help needed. Please note that our team will reach only if there is a need and you can contribute if you have availability at that point of time.
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </main>
