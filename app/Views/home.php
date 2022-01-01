@@ -50,7 +50,7 @@
       </div>
     </div>
 
-<hr class="featurette-divider">
+  <hr class="featurette-divider">
 
     <p class="display-4 text-center mb-4">Our Journey in 2021</p>
 

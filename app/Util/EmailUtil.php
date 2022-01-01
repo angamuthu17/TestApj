@@ -11,8 +11,6 @@ class EmailUtil
 	{
         $mail = $this->configEmail();
         
-        $mail->Username   = 'contact@joinapj.com';                     // SMTP username
-
         $this->sendThankYouToUser($mail, $contactFormData);
         $this->sendEmailToAdmin($mail, $contactFormData);
 
@@ -100,7 +98,6 @@ class EmailUtil
 	{
         $mail = $this->configEmail();
 
-        $mail->Username   = 'learn@joinapj.com';                     // SMTP username
 
         $this->sendConfirmationEmail($mail, $student);
         $this->sendRegEmailToAdmin($mail, $student);
@@ -116,7 +113,7 @@ class EmailUtil
 
             if ($mail != null)
             {
-                $mail->setFrom('learn@joinapj.com', 'A Purposeful Journey');
+                $mail->setFrom('contact@joinapj.com', 'A Purposeful Journey');
 
                 $mail->ClearAddresses();
                 $mail->addAddress($student->emailAddress , $student->firstName);
@@ -150,7 +147,7 @@ class EmailUtil
 
             if ($mail != null)
             {
-                $mail->setFrom('learn@joinapj.com', 'A Purposeful Journey');
+                $mail->setFrom('contact@joinapj.com', 'A Purposeful Journey');
                 $mail->ClearAddresses();
                 $mail->addAddress('learn@joinapj.com' , 'A Purposeful Journey');
                 $mail->Subject = 'New registration for free weekend online class.';
@@ -211,7 +208,7 @@ class EmailUtil
                 )
             );
 
-            
+            $mail->Username   = 'contact@joinapj.com';                     // SMTP username
             $mail->Password   = 'Join2apjnow';                          // SMTP password
             
             $mail->Host = 'smtp.hostinger.com';
