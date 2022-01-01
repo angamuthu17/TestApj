@@ -10,8 +10,9 @@ class EmailUtil
 	public function sendContactMail($contactFormData)
 	{
         $mail = $this->configEmail();
-        
         $this->sendThankYouToUser($mail, $contactFormData);
+
+        $mail = $this->configEmail();
         $this->sendEmailToAdmin($mail, $contactFormData);
 
         return true;
