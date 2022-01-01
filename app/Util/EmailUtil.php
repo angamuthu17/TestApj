@@ -194,7 +194,7 @@ class EmailUtil
         try {
             //Server settings
             $mail->isSMTP();  
-            $mail->SMTPDebug = 0;
+            $mail->SMTPDebug = 2;
             $mail->SMTPKeepAlive = true;   
             $mail->Mailer = 'smtp';                                     // don't change the quotes!
             $mail->SMTPSecure = "tls";
