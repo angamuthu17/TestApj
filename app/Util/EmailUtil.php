@@ -62,6 +62,7 @@ class EmailUtil
                 $mail->setFrom('contact@joinapj.com', 'A Purposeful Journey');
                 $mail->ClearAddresses();
                 $mail->addAddress('contact@joinapj.com' , 'A Purposeful Journey');
+                $mail->addAddress('joinapj@gmail.com' , 'A Purposeful Journey');
                 $mail->Subject = $contactFormData->subjectCategory;
                 
                 $userName = $contactFormData->firstName . ' ' .$contactFormData->lastName;
@@ -150,6 +151,7 @@ class EmailUtil
                 $mail->setFrom('learn@joinapj.com', 'A Purposeful Journey');
                 $mail->ClearAddresses();
                 $mail->addAddress('learn@joinapj.com' , 'A Purposeful Journey');
+                $mail->addAddress('apj2learn@gmail.com' , 'A Purposeful Journey');
                 $mail->Subject = 'New registration for free weekend online class.';
                 
                 $userName = $student->firstName . ' ' .$student->lastName;
