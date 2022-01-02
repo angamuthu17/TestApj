@@ -10,9 +10,8 @@ class EmailUtil
 	public function sendContactMail($contactFormData)
 	{
         $mail = $this->configEmail();
+        
         $this->sendThankYouToUser($mail, $contactFormData);
-
-        $mail = $this->configEmail();
         $this->sendEmailToAdmin($mail, $contactFormData);
 
         return true;
@@ -26,7 +25,7 @@ class EmailUtil
 
             if ($mail != null)
             {
-                $mail->setFrom('contact@joinapj.com', 'A Purposeful Journey');
+                $mail->setFrom('donotreply@joinapj.com', 'A Purposeful Journey');
 
                 $mail->ClearAddresses();
                 $mail->addAddress($contactFormData->emailAddress , $contactFormData->firstName);
@@ -114,7 +113,7 @@ class EmailUtil
 
             if ($mail != null)
             {
-                $mail->setFrom('contact@joinapj.com', 'A Purposeful Journey');
+                $mail->setFrom('DO-NOT-REPLY@joinapj.com', 'A Purposeful Journey');
 
                 $mail->ClearAddresses();
                 $mail->addAddress($student->emailAddress , $student->firstName);
@@ -148,7 +147,7 @@ class EmailUtil
 
             if ($mail != null)
             {
-                $mail->setFrom('contact@joinapj.com', 'A Purposeful Journey');
+                $mail->setFrom('learn@joinapj.com', 'A Purposeful Journey');
                 $mail->ClearAddresses();
                 $mail->addAddress('learn@joinapj.com' , 'A Purposeful Journey');
                 $mail->Subject = 'New registration for free weekend online class.';
@@ -195,7 +194,7 @@ class EmailUtil
         try {
             //Server settings
             $mail->isSMTP();  
-            $mail->SMTPDebug = 2;
+            $mail->SMTPDebug = 0;
             $mail->SMTPKeepAlive = true;   
             $mail->Mailer = 'smtp';                                     // don't change the quotes!
             $mail->SMTPSecure = "tls";
@@ -209,11 +208,11 @@ class EmailUtil
                 )
             );
 
-            $mail->Username   = 'contact@joinapj.com';                     // SMTP username
+            
             $mail->Password   = 'Join2apjnow';                          // SMTP password
             
             $mail->Host = 'smtp.hostinger.com';
-            $mail->Port       = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
+            $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
             // Content
             $mail->isHTML(true);
