@@ -10,7 +10,7 @@ class EmailUtil
 	public function sendContactMail($contactFormData)
 	{
         $mail = $this->configEmail();
-        
+        $mail->Username = 'contact@joinapj.com';
         $this->sendThankYouToUser($mail, $contactFormData);
         $this->sendEmailToAdmin($mail, $contactFormData);
 
@@ -98,7 +98,7 @@ class EmailUtil
 	{
         $mail = $this->configEmail();
 
-
+        $mail->Username = 'learn@joinapj.com';
         $this->sendConfirmationEmail($mail, $student);
         $this->sendRegEmailToAdmin($mail, $student);
 
