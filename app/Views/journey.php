@@ -29,7 +29,7 @@
     <div class="col-md">
       <ul class="list-unstyled">
           <li class="mt-2" style="text-align: justify;"><i class="fa fa-burn fa-lg mr-3 text-dark" aria-hidden="true"></i> A Purposeful Journey aims to help talented children who need help to get quality education and support them to continue their studies.</li>
-          <li class="mt-4" style="text-align: justify;"><i class="fa fa-burn fa-lg mr-3 text-dark" aria-hidden="true"></i> We also help old age people and provide aids to their medical needs.</li>
+          <li class="mt-4" style="text-align: justify;"><i class="fa fa-burn fa-lg mr-3 text-dark" aria-hidden="true"></i> We also help senior citizens and provide aids to their medical needs.</li>
           <li class="mt-4" style="text-align: justify;"><i class="fa fa-burn fa-lg mr-3 text-dark" aria-hidden="true"></i> We continuously contribute to environmental initiatives and joins as helping hands during natural disasters.</li>
       </ul>
     </div>

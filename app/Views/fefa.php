@@ -46,6 +46,12 @@ Please note that these classes are currently designed for Tamilnadu region stude
                     <li>100% Interest & dedication</li>
                     <li>Availability on weekends - mostly Saturday or Sunday evening</li>
                 </ul>
+
+                <p class="font-weight-bold">Free mentoring for college students: </p>
+                <p class="card-text" style="text-align: justify;">
+                Please register and mention if you are looking for job preparation or project related help. This service is currently available for Computer Science and IT background college students and available to any students across all states in India.
+                </p>
+
                 <p class="font-weight-bold">Requirement:</p>
                 <ul>
                     <li>Laptop or smart phone with Zoom/Google meet application installed</li>

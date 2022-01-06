@@ -52,16 +52,6 @@
 
   <hr class="featurette-divider">
 
-    <p class="display-4 text-center mb-4">Our Journey in 2021</p>
-
-    <div class="row featurette text-center">
-      <div class="col-12">
-        <img src="assets/images/apj_2021.jpg" alt="APJ 2021 Summary" width="100%" height="100%" class="border border-dark">
-      </div>
-    </div>
-
-  <hr class="featurette-divider">
-
   <p class="display-4 text-center mb-3">Important Updates</p>
 
   <div class="row featurette text-center">
@@ -99,6 +89,17 @@
          </div>
       </div>
   </div>
+
+  <hr class="featurette-divider">
+
+  <p class="display-4 text-center mb-4">Our Journey in 2021</p>
+
+  <div class="row featurette text-center">
+    <div class="col-12">
+      <img src="assets/images/apj_2021.jpg" alt="APJ 2021 Summary" width="100%" height="100%" class="border border-dark">
+    </div>
+  </div>
+
 
   <hr class="featurette-divider">
 
@@ -155,82 +156,9 @@
     <hr class="featurette-divider">
 
     <p class="display-4 text-center mb-4">#FreeTraining</p>
-    
-    <div class="row card-row">
-          <div class="col-sm-4 mt-2">
-            <div class="card card-flip h-100">
-                <div class="card-front text-center bg-apj-light">
-                    <div class="card-body">
-                        <img src="assets/images/icons/python.png" alt="Python" width="100px" height="100px" class="mx-auto d-block trainer-card-img">
-                        <br/>
-                        <h5 class="card-title mt-2 mb-0">Basic Python</h5>
-                        <p class="text-center mb-0">By</p>
-                        <h5 class="card-title text-center mt-0">Mrs. Kiruthika Sivaraman</h5>
-                    </div>
-                </div>
-                <div class="card-back bg-white">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">Mrs. Kiruthika Sivaraman</h5>
-                        <br/> 
-                        <p class="text-justify">Has completed <b>Master in Computer Science</b> and have <b>10+ years</b> experience in IT industry.
-                        <a class="card-link" href="#" data-toggle="modal" data-target="#profileModal" data-trainer="kiruthika">Read more.</a></p> 
-                        <br/> 
-                        <div class="text-center"><a href="fefa" class="btn btn-outline-info btn-sm">Register</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4 mt-2">
-            <div class="card card-flip h-100">
-                <div class="card-front bg-apj-light">
-                    <div class="card-body">
-                        <img src="assets/images/icons/english.jpg" alt="English" width="100px" height="100px" class="mx-auto d-block trainer-card-img">
-                        <br/>
-                        <h5 class="card-title text-center mt-2 mb-0">Basic English</h5>
-                        <p class="text-center mb-0">By</p>
-                        <h5 class="card-title text-center mt-0">Mr. Angamuthu Natarajan</h5>
-                    </div>
-                </div>
-                <div class="card-back bg-white">
-                    <div class="card-body">
-
-                        <h5 class="card-title text-center">Mr. Angamuthu Natarajan</h5>
-                        <br/>
-                        <p class="text-justify">Has completed <b>Bachelor of Engineering</b> and have <b>11+ years</b> experience in IT industry.
-                        <a class="card-link" href="#" data-toggle="modal" data-target="#profileModal" data-trainer="angamuthu">Read more.</a></p> 
-                        <br/> 
-                        <div class="text-center"><a href="fefa" class="btn btn-outline-info btn-sm">Register</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-sm-4 mt-2">
-            <div class="card card-flip h-100">
-                <div class="card-front bg-apj-light">
-                    <div class="card-body">
-                        <img src="assets/images/icons/english.jpg" alt="Python" width="100px" height="100px" class="mx-auto d-block trainer-card-img">
-                        <br/>
-                        <h5 class="card-title text-center mt-2 mb-0">Basic English & Python</h5>
-                        <p class="text-center mb-0">By</p>
-                        <h5 class="card-title text-center mb-0 mt-0">Mr. Bharath Ram Manoharan</h5>
-                        <p class="text-center small">( Guest )</p>
-                    </div>
-                </div>
-                <div class="card-back bg-white">
-                    <div class="card-body">
-
-                        <h5 class="card-title text-center">Mr. Bharath Ram Manoharan</h5>
-                        <br/>
-                        <p class="text-justify">Has completed <b>Master in Computer Science</b> and have <b>12+ years</b> experience in IT industry.
-                        <a class="card-link" href="#" data-toggle="modal" data-target="#profileModal" data-trainer="bharath">Read more.</a></p> 
-                        <br/> 
-                        <div class="text-center"><a href="fefa" class="btn btn-outline-info btn-sm">Register</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <p class="text-left">
+    Are you a student or do you know any students who completed grade 10th or above? Please ask them to register for fee-free online weekend coaching classes if really interested. For more details <a href="fefa">click here</a>.
+    </p>
 
     <hr class="featurette-divider">
 

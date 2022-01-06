@@ -15,7 +15,7 @@
                 <span aria-hidden="true">&times;</span>
             </button>
             <h4 class="alert-heading"><i class="far fa-check-circle mr-2 text-success" aria-hidden="true"></i>Done!</h4>
-            <p>Thank you for your interest! We will notify you via e-mail when the next online batch starts. Classes for current batch has started from May 2020 to September 2020.</p>
+            <p>Thank you for your interest! We will notify you via e-mail when the next online batch starts.</p>
         </div>
         <div id="errorAlert" class="alert alert-danger" role="alert" style="display:none;">
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -119,7 +119,7 @@
                             <select class="form-control" id="studentAvailability" name="studentAvailability" required>
                                 <option value="">-- Select --</option>
                                 <option value="Y">Yes, I am available.</option>
-                                <option value="N">N0, I am not available.</option>   
+                                <option value="N">No, I am not available.</option>   
                             </select>
                             <div class="invalid-feedback">
                                 Please select your availability.
