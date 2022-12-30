@@ -65,6 +65,9 @@
             <marquee height="100%" width="100%" behavior="scroll" direction="up" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
               <ul class="list-unstyled">
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> <span id="mon_yr"></span> contribution to Gandhipuram, Madurai senior care center has been sent. </li>
+<li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Donated medical support fund to a college professor who met with an accident in November 2022 </li>
+<li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Diwali celebration contribution for Madurai senior care home in October, 2022. </li>
+<li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Supported by donating books and college travel fee to a nursing college student in October 2022. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Provided educational fund support to Pharmacy college students in April 2022. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Extended financial support for eye operation to a low income family in April 2022. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Financial support for kidney transplantation patient is provided in January 2021. </li>
