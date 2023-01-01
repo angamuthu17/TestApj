@@ -65,9 +65,9 @@
             <marquee height="100%" width="100%" behavior="scroll" direction="up" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
               <ul class="list-unstyled">
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> <span id="mon_yr"></span> contribution to Gandhipuram, Madurai senior care center has been sent. </li>
-<li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Donated medical support fund to a college professor who met with an accident in November 2022 </li>
-<li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Diwali celebration contribution for Madurai senior care home in October, 2022. </li>
-<li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Supported by donating books and college travel fee to a nursing college student in October 2022. </li>
+                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Donated medical support fund to a college professor who met with an accident in November 2022 </li>
+                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Diwali celebration contribution for Madurai senior care home in October, 2022. </li>
+                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Supported by donating books and college travel fee to a nursing college student in October 2022. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Provided educational fund support to Pharmacy college students in April 2022. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Extended financial support for eye operation to a low income family in April 2022. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Financial support for kidney transplantation patient is provided in January 2021. </li>
@@ -97,15 +97,26 @@
 
   <hr class="featurette-divider">
 
-  <p class="display-4 text-center mb-4">Our Journey in 2021</p>
+  <p class="display-4 text-center mb-4">Our Journey in past year</p>
 
-  <div class="row featurette text-center">
-    <div class="col-12">
-      <img src="assets/images/apj_2021.jpg" alt="APJ 2021 Summary" width="100%" height="100%" class="border border-dark">
-    </div>
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="y2022-tab" data-toggle="tab" href="#y2022" role="tab" aria-controls="y2022" aria-selected="true">2022</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="y2021-tab" data-toggle="tab" href="#y2021" role="tab" aria-controls="y2021" aria-selected="false">2021</a>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="y2022" role="tabpanel" aria-labelledby="y2022-tab">
+    <img src="assets/images/apj_2022.png" alt="APJ 2022 Summary" width="100%" height="auto" class="border border-dark">
   </div>
+  <div class="tab-pane fade" id="y2021" role="tabpanel" aria-labelledby="y2021-tab">
+    <img src="assets/images/apj_2021.jpg" alt="APJ 2021 Summary" width="100%" height="auto" class="border border-dark">
+  </div>
+</div>
 
-
+  
   <hr class="featurette-divider">
 
   <p class="display-4 text-center mb-3">Initiatives</p>

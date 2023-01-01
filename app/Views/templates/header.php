@@ -13,6 +13,7 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/lib/slider/slideWiz.css" />
+    <link rel="stylesheet" href="assets/lib/slider/slideWiz.css" />
 
     <script src="assets/js/jquery-3.5.1.min.js"></script>
     <script src="https://www.google.com/recaptcha/api.js?render=6Lcl5akZAAAAABwN3d-P6ClqwvlNTB4diNV9piel"></script>
