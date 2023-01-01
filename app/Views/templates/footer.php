@@ -100,7 +100,7 @@
 
         $('.slide-container').slideWiz({
             file: mySlides,
-            auto: false,
+            auto: true,
             speed: 4000, // in ms
             type :'box3D',
             animation : 'slice',
