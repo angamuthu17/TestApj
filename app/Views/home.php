@@ -65,7 +65,7 @@
             <marquee height="100%" width="100%" behavior="scroll" direction="up" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
               <ul class="list-unstyled">
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> <span id="mon_yr"></span> contribution to Gandhipuram, Madurai senior care center has been sent. </li>
-                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> A Purposeful Journey and Mother Teresa Educational Trust are coordinating and helping together to  small business independent women who are street side sellers through the fund received from women employees of GoDB Tech private Limited, Perungudi, Chennai in the occasion of women's day. The donation and help activities will be completed before April 14th, 2023 </li>
+                <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Coordinated and Funded to support road side small business women entrepreneurs - April 2023 </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Donated medical support fund to a college professor who met with an accident in November 2022 </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Diwali celebration contribution for Madurai senior care home in October, 2022. </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Supported by donating books and college travel fee to a nursing college student in October 2022. </li>
