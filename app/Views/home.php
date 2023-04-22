@@ -180,54 +180,6 @@
 
     <hr class="featurette-divider">
 
-    <p class="display-4 text-center mb-4">Gallery</p>
-
-    <div class="row featurette text-center">
-      <div class="col-md-6">
-        <h4 class="featurette-heading">Independence Day</h4>
-        <p class="lead">Independence day celebration with school children.</p>
-      </div>
-      <div class="col-md-6">
-        <img src="assets/images/pic6.jpeg" alt="Independence day" width="350px" height="300px" class="border border-dark">
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette text-center">
-      <div class="col-md-6 order-md-1">
-        <h4 class="featurette-heading">Techie to Teach</h4>
-        <p class="lead">Our Volunteer's teach our children every saturday.</p>
-      </div>
-      <div class="col-md-6">
-        <img src="assets/images/pic3.jpeg" alt="Independence day" width="350px" height="300px" class="border border-dark">
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette text-center">
-      <div class="col-md-6">
-        <h4 class="featurette-heading"> Help in Need (Medical/Education)</h4>
-        <p class="lead">Helping in Medical Emargency and Supporting children eduction without breaking.</p>
-      </div>
-      <div class="col-md-6">
-        <img src="assets/images/pic8.jpeg" alt="Independence day" width="350px" height="300px" class="border border-dark">
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette text-center mb-4">
-      <div class="col-md-6 order-md-1">
-        <h4 class="featurette-heading">Sharing and Caring</h4>
-        <p class="lead">Our member is distributing food to elders in the senior care center.</p>
-      </div>
-      <div class="col-md-6">
-        <img src="assets/images/pic12.jpeg" alt="Independence day" width="350px" height="300px" class="border border-dark">
-      </div>
-    </div>
-
     <!-- /END THE FEATURETTES -->
 
   </div><!-- /.container -->

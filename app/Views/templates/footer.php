@@ -23,7 +23,7 @@
 
 <script src="assets/js/bootstrap.bundle.min.js"></script></body>
 <script src="assets/lib/slider/slideWiz.js"></script>
-
+<script src="assets/lib/lightbox/simple-lightbox.jquery.min.js?v2.13.0"></script>
     <script>
 
         var mySlides = [
@@ -107,6 +107,13 @@
             col : colVal
         });
 
+        (function() {
+        var $gallery = new SimpleLightbox('.lightbox-gallery a', {"loop": false, "overlayOpacity": 0.9});
+        var $gallery1 = new SimpleLightbox('.lightbox-gallery1 a', {"loop": false, "overlayOpacity": 0.9});
+        var $gallery2 = new SimpleLightbox('.lightbox-gallery2 a', {"loop": false, "overlayOpacity": 0.9});
+        var $gallery3 = new SimpleLightbox('.lightbox-gallery3 a', {"loop": false, "overlayOpacity": 0.9});
+        var $gallery4 = new SimpleLightbox('.lightbox-gallery4 a', {"loop": false, "overlayOpacity": 0.9});
+    })();
 
     </script>
 

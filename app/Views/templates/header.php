@@ -13,7 +13,7 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/lib/slider/slideWiz.css" />
-    <link rel="stylesheet" href="assets/lib/slider/slideWiz.css" />
+    <link rel="stylesheet" href="assets/lib/lightbox/simple-lightbox.min.css?v2.13.0" />
 
     <script src="assets/js/jquery-3.5.1.min.js"></script>
     <script src="https://www.google.com/recaptcha/api.js?render=6Lcl5akZAAAAABwN3d-P6ClqwvlNTB4diNV9piel"></script>
@@ -86,6 +86,9 @@
         </li>
         <li id="faq" class="nav-item">
           <a class="nav-link" href="faq">FAQ</a>
+        </li>
+        <li id="gallery" class="nav-item">
+          <a class="nav-link" href="gallery">Gallery</a>
         </li>
         <li id="fefa" class="nav-item nav-divider">
           <a class="nav-link nav-highlight font-weight-bold font-italic" href="fefa">#FreeTraining</a>
