@@ -48,7 +48,7 @@
   
   <div class="container">
     <h4 class="mt-4">Support for school students</h4>
-    <p class="lead mt-2">Bag donation for 20 students in June 2022</p>
+    <p class="lead mt-2">Bag donation for 20 students in June 2023</p>
     <div class="lightbox-gallery">
         <a href="assets/images/pic26.jpeg" class="big"><img class="thumb-img" src="assets/images/pic26.jpeg" alt="" title="" /></a>
         <a href="assets/images/pic27.jpeg" class="big"><img class="thumb-img" src="assets/images/pic27.jpeg" alt="" title="" /></a>
