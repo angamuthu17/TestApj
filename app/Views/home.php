@@ -65,6 +65,8 @@
             <marquee height="100%" width="100%" behavior="scroll" direction="up" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
               <ul class="list-unstyled">
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> <span id="mon_yr"></span> contribution to Gandhipuram, Madurai senior care center has been sent. </li>
+                  <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Contributed for 2 girl students school fees - Term I in June and Term 2 in October, 2023 </li> 
+                  <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Donated school bags and kits for approx. 20 students - June 2022 </li> 
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Coordinated and Funded to support road side small business women entrepreneurs - April 2023 </li>                  
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Thanks to the cosponsors and coordinators -  GoDB Tech Private Limited, Chennai and MET, Madurai for women entrepreneurs support </li>
                 <li class="mb-4"> <i class="fas fa-angle-double-right mr-2"></i> Donated medical support fund to a college professor who met with an accident in November 2022 </li>

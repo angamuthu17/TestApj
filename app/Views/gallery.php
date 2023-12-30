@@ -47,6 +47,21 @@
   </div>
   
   <div class="container">
+    <h4 class="mt-4">Support for school students</h4>
+    <p class="lead mt-2">Bag donation for 20 students in June 2022</p>
+    <div class="lightbox-gallery">
+        <a href="assets/images/pic26.jpeg" class="big"><img class="thumb-img" src="assets/images/pic26.jpeg" alt="" title="" /></a>
+        <a href="assets/images/pic27.jpeg" class="big"><img class="thumb-img" src="assets/images/pic27.jpeg" alt="" title="" /></a>
+        <a href="assets/images/pic28.jpeg" class="big"><img class="thumb-img" src="assets/images/pic28.jpeg" alt="" title="" /></a>
+        <a href="assets/images/pic29.jpeg" class="big"><img class="thumb-img" src="assets/images/pic29.jpeg" alt="" title="" /></a>
+        <a href="assets/images/pic30.jpeg" class="big"><img class="thumb-img" src="assets/images/pic30.jpeg" alt="" title="" /></a>
+        <a href="assets/images/pic31.jpeg" class="big"><img class="thumb-img" src="assets/images/pic31.jpeg" alt="" title="" /></a>
+        <a href="assets/images/pic32.jpeg" class="big"><img class="thumb-img" src="assets/images/pic32.jpeg" alt="" title="" /></a>
+        <a href="assets/images/pic33.jpeg" class="big"><img class="thumb-img" src="assets/images/pic33.jpeg" alt="" title="" /></a>
+        <a href="assets/images/pic34.jpeg" class="big"><img class="thumb-img" src="assets/images/pic34.jpeg" alt="" title="" /></a>
+        <div class="clear"></div>
+    </div>
+    <hr class="featurette-divider">
     <h4 class="mt-4">Support for women entrepreneurs</h4>
     <p class="lead mt-2">Coordinated and Funded to support road side small business women entrepreneurs - April 2023</p>
     <div class="lightbox-gallery">
