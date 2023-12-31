@@ -254,7 +254,7 @@
 
     if((d.getMonth() == 11 && d.getDate() > 28) || (d.getMonth() == 0 && d.getDate() < 10)) {
         var yearText = (d.getMonth() == 11) ? d.getFullYear() +1 : d.getFullYear();
-        document.getElementById("newYearText").innerHTML = "Wishing you all a very Happy New Year" + yearText + " !";    
+        document.getElementById("newYearText").innerHTML = "Wishing you all a very Happy New Year " + yearText + " !";    
     }
     
     
