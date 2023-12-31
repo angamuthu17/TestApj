@@ -110,7 +110,7 @@
     <a class="nav-link" id="y2021-tab" data-toggle="tab" href="#y2021" role="tab" aria-controls="y2021" aria-selected="false">2021</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" id="y2022-tab" data-toggle="tab" href="#y2022" role="tab" aria-controls="y2022" aria-selected="true">2022</a>
+    <a class="nav-link" id="y2022-tab" data-toggle="tab" href="#y2022" role="tab" aria-controls="y2022" aria-selected="true">2022</a>
   </li>
   <li class="nav-item">
     <a class="nav-link active" id="y2023-tab" data-toggle="tab" href="#y2023" role="tab" aria-controls="y2023" aria-selected="true">2023</a>
@@ -121,7 +121,7 @@
   <div class="tab-pane fade" id="y2021" role="tabpanel" aria-labelledby="y2021-tab">
     <img src="assets/images/apj_2021.jpg" alt="APJ 2021 Summary" width="100%" height="auto" class="border border-dark">
   </div>
-  <div class="tab-pane fade show active" id="y2022" role="tabpanel" aria-labelledby="y2022-tab">
+  <div class="tab-pane fade show" id="y2022" role="tabpanel" aria-labelledby="y2022-tab">
     <img src="assets/images/apj_2022.png" alt="APJ 2022 Summary" width="100%" height="auto" class="border border-dark">
   </div>
   <div class="tab-pane fade show active" id="y2023" role="tabpanel" aria-labelledby="y2023-tab">
