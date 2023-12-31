@@ -22,7 +22,7 @@
   <marquee class="container m-0" onmouseover="this.stop();" onmouseout="this.start();" scrollamount="8">
     <div class="apj-primary font-weight-bold" style="font-size: 1.2em;">
       <p class="d-inline-block mr-4 mb-0">Welcome to A Purposeful Journey !</p>
-      <p class="d-inline-block mr-4 mb-0"><span id="newYearText"></span></p>
+      <p class="d-inline-block mr-4 ml-4 mb-0" id="newYearText"></p>
       <p class="d-inline-block mr-4 ml-4 mb-0">Thank you all for your continuous contributions and support!</p>
       <p class="d-inline-block mr-4 ml-4 mb-0">We pray for everyone health during Covid-19 pandemic!</p>
       <p class="d-inline-block ml-4 mb-0">Stay safe and healthy !</p>
@@ -255,6 +255,8 @@
     if((d.getMonth() == 11 && d.getDate() > 28) || (d.getMonth() == 0 && d.getDate() < 10)) {
         var yearText = (d.getMonth() == 11) ? d.getFullYear() +1 : d.getFullYear();
         document.getElementById("newYearText").innerHTML = "Wishing you all a very Happy New Year " + yearText + " !";    
+    } else {
+        document.getElementById("newYearText").remove();
     }
     
     
