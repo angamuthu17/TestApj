@@ -22,6 +22,7 @@
   <marquee class="container m-0" onmouseover="this.stop();" onmouseout="this.start();" scrollamount="8">
     <div class="apj-primary font-weight-bold" style="font-size: 1.2em;">
       <p class="d-inline-block mr-4 mb-0">Welcome to A Purposeful Journey !</p>
+      <p class="d-inline-block mr-4 mb-0"><span id="newYearText"></span></p>
       <p class="d-inline-block mr-4 ml-4 mb-0">Thank you all for your continuous contributions and support!</p>
       <p class="d-inline-block mr-4 ml-4 mb-0">We pray for everyone health during Covid-19 pandemic!</p>
       <p class="d-inline-block ml-4 mb-0">Stay safe and healthy !</p>
@@ -104,19 +105,27 @@
   <p class="display-4 text-center mb-4">Our Journey in past year</p>
 
   <ul class="nav nav-tabs" id="myTab" role="tablist">
+  
+  <li class="nav-item">
+    <a class="nav-link" id="y2021-tab" data-toggle="tab" href="#y2021" role="tab" aria-controls="y2021" aria-selected="false">2021</a>
+  </li>
   <li class="nav-item">
     <a class="nav-link active" id="y2022-tab" data-toggle="tab" href="#y2022" role="tab" aria-controls="y2022" aria-selected="true">2022</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" id="y2021-tab" data-toggle="tab" href="#y2021" role="tab" aria-controls="y2021" aria-selected="false">2021</a>
+    <a class="nav-link active" id="y2023-tab" data-toggle="tab" href="#y2023" role="tab" aria-controls="y2023" aria-selected="true">2023</a>
   </li>
+      
 </ul>
 <div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade" id="y2021" role="tabpanel" aria-labelledby="y2021-tab">
+    <img src="assets/images/apj_2021.jpg" alt="APJ 2021 Summary" width="100%" height="auto" class="border border-dark">
+  </div>
   <div class="tab-pane fade show active" id="y2022" role="tabpanel" aria-labelledby="y2022-tab">
     <img src="assets/images/apj_2022.png" alt="APJ 2022 Summary" width="100%" height="auto" class="border border-dark">
   </div>
-  <div class="tab-pane fade" id="y2021" role="tabpanel" aria-labelledby="y2021-tab">
-    <img src="assets/images/apj_2021.jpg" alt="APJ 2021 Summary" width="100%" height="auto" class="border border-dark">
+  <div class="tab-pane fade show active" id="y2023" role="tabpanel" aria-labelledby="y2023-tab">
+    <img src="assets/images/apj_2023.png" alt="APJ 2023 Summary" width="100%" height="auto" class="border border-dark">
   </div>
 </div>
 
@@ -243,6 +252,12 @@
     var yr = d.getFullYear();
     document.getElementById("mon_yr").innerHTML = mon + ", " + yr;
 
+    if((d.getMonth() == 11 && d.getDate() > 28) || (d.getMonth() == 0 && d.getDate() < 10)) {
+        var yearText = (d.getMonth() == 11) ? d.getFullYear() +1 : d.getFullYear();
+        document.getElementById("newYearText").innerHTML = "Wishing you all a very Happy New Year" + yearText + " !";    
+    }
+    
+    
     var trainer_barath = { "name":"Mr. Bharath Ram Manoharan", 
                             "edu":"Master in Computer Science", 
                             "exp":"12 + years", 
